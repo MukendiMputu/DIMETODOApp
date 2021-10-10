@@ -1,0 +1,100 @@
+FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
+  modelName "New Feature"
+  FeatureContainer _MvEYoClwEeyVOqAhuyE3dg at 250,110 size 300,205 {
+  	title "Create New List"
+  	Start _uGWtcSlwEeyVOqAhuyE3dg at 60,40 size 96,32 {
+  	}
+  	
+  	End _xlcDcSlwEeyVOqAhuyE3dg at 180,130 size 96,32 {
+  	}
+  	
+  	DocNode _296kASlwEeyVOqAhuyE3dg at 81,85 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_hic9cClvEeyVOqAhuyE3dg"
+  	}
+  }
+  
+  FeatureContainer _NR4KwSlwEeyVOqAhuyE3dg at 560,110 size 300,205 {
+  	title "Add List Entry"
+  	Start _vXe-ISlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
+  	}
+  	
+  	End _x-eOgClwEeyVOqAhuyE3dg at 200,130 size 96,32 {
+  	}
+  	
+  	DocNode _01e34SlwEeyVOqAhuyE3dg at 105,80 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_kIGxESlvEeyVOqAhuyE3dg"
+  	}
+  }
+  
+  FeatureContainer _OTjDIClwEeyVOqAhuyE3dg at 870,110 size 300,205 {
+  	title "Add List Owner"
+  	Start _vyYKYSlwEeyVOqAhuyE3dg at 20,30 size 96,32 {
+  	}
+  	
+  	End _yS6NcClwEeyVOqAhuyE3dg at 200,130 size 96,32 {
+  	}
+  	
+  	DocNode _2NcwYSlwEeyVOqAhuyE3dg at 106,79 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_l6Wx0SlvEeyVOqAhuyE3dg"
+  	}
+  }
+  
+  FeatureContainer _O_5y0SlwEeyVOqAhuyE3dg at 870,340 size 300,197 {
+  	title "Remove List Owner"
+  	Start _xMIyoSlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
+  	}
+  	
+  	End _ynEfkSlwEeyVOqAhuyE3dg at 220,150 size 96,32 {
+  	}
+  	
+  	DocNode _EMDZRSlxEeyVOqAhuyE3dg at 90,80 size 111,50 {
+  		createScreenshots true
+  		libraryComponentUID "_JYkW4SlwEeyVOqAhuyE3dg"
+  	}
+  }
+  
+  FeatureContainer _PYBX4SlwEeyVOqAhuyE3dg at 560,340 size 300,197 {
+  	title "Delete List Entry"
+  	Start _wyu0ISlwEeyVOqAhuyE3dg at 20,40 size 96,32 {
+  	}
+  	
+  	End _zjxYYSlwEeyVOqAhuyE3dg at 180,160 size 96,32 {
+  	}
+  	
+  	DocNode _DXjaMSlxEeyVOqAhuyE3dg at 95,106 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_AbVWIClwEeyVOqAhuyE3dg"
+  	}
+  }
+  
+  FeatureContainer _Pu608SlwEeyVOqAhuyE3dg at 250,340 size 300,197 {
+  	title "Delete List"
+  	Start _wYOCYSlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
+  	}
+  	
+  	End _z4kjsClwEeyVOqAhuyE3dg at 190,150 size 96,32 {
+  	}
+  	
+  	DocNode _3Z4HQSlwEeyVOqAhuyE3dg at 80,88 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_5BaiQSlvEeyVOqAhuyE3dg"
+  	}
+  }
+  
+  FeatureContainer _Q_P0YSlwEeyVOqAhuyE3dg at 30,110 size 201,205 {
+  	title "Login"
+  	Start _TWSkQClwEeyVOqAhuyE3dg at 50,20 size 96,32 {
+  	}
+  	
+  	End _Ts34QSlwEeyVOqAhuyE3dg at 40,150 size 96,32 {
+  	}
+  	
+  	DocNode _UN3sgSlwEeyVOqAhuyE3dg at 48,80 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_fuP04ClvEeyVOqAhuyE3dg"
+  	}
+  }
+}
