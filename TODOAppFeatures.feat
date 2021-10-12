@@ -3,20 +3,29 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   FeatureContainer _MvEYoClwEeyVOqAhuyE3dg at 250,110 size 300,205 {
   	title "Create New List"
   	Start _uGWtcSlwEeyVOqAhuyE3dg at 60,40 size 96,32 {
+  		-Edge-> _296kASlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _otJ6YCsAEey3btEC6p-NLw
+  		}
   	}
   	
-  	End _xlcDcSlwEeyVOqAhuyE3dg at 180,130 size 96,32 {
+  	End _xlcDcSlwEeyVOqAhuyE3dg at 180,140 size 96,32 {
   	}
   	
   	DocNode _296kASlwEeyVOqAhuyE3dg at 81,85 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_hic9cClvEeyVOqAhuyE3dg"
+  		-Edge-> _xlcDcSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _qfQxMSsAEey3btEC6p-NLw
+  		}
   	}
   }
   
   FeatureContainer _NR4KwSlwEeyVOqAhuyE3dg at 560,110 size 300,205 {
   	title "Add List Entry"
   	Start _vXe-ISlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
+  		-Edge-> _01e34SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _yIfzcSsAEey3btEC6p-NLw
+  		}
   	}
   	
   	End _x-eOgClwEeyVOqAhuyE3dg at 200,130 size 96,32 {
@@ -25,12 +34,18 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	DocNode _01e34SlwEeyVOqAhuyE3dg at 105,80 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_kIGxESlvEeyVOqAhuyE3dg"
+  		-Edge-> _x-eOgClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _xyP2oSsAEey3btEC6p-NLw
+  		}
   	}
   }
   
   FeatureContainer _OTjDIClwEeyVOqAhuyE3dg at 870,110 size 300,205 {
   	title "Add List Owner"
   	Start _vyYKYSlwEeyVOqAhuyE3dg at 20,30 size 96,32 {
+  		-Edge-> _2NcwYSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _yr8ewCsAEey3btEC6p-NLw
+  		}
   	}
   	
   	End _yS6NcClwEeyVOqAhuyE3dg at 200,130 size 96,32 {
@@ -39,12 +54,18 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	DocNode _2NcwYSlwEeyVOqAhuyE3dg at 106,79 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_l6Wx0SlvEeyVOqAhuyE3dg"
+  		-Edge-> _yS6NcClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _zDmJwSsAEey3btEC6p-NLw
+  		}
   	}
   }
   
   FeatureContainer _O_5y0SlwEeyVOqAhuyE3dg at 870,340 size 300,197 {
   	title "Remove List Owner"
   	Start _xMIyoSlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
+  		-Edge-> _EMDZRSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _EpKSQSsBEey3btEC6p-NLw
+  		}
   	}
   	
   	End _ynEfkSlwEeyVOqAhuyE3dg at 220,150 size 96,32 {
@@ -53,26 +74,38 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	DocNode _EMDZRSlxEeyVOqAhuyE3dg at 90,80 size 111,50 {
   		createScreenshots true
   		libraryComponentUID "_JYkW4SlwEeyVOqAhuyE3dg"
+  		-Edge-> _ynEfkSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _E6EcESsBEey3btEC6p-NLw
+  		}
   	}
   }
   
   FeatureContainer _PYBX4SlwEeyVOqAhuyE3dg at 560,340 size 300,197 {
   	title "Delete List Entry"
   	Start _wyu0ISlwEeyVOqAhuyE3dg at 20,40 size 96,32 {
+  		-Edge-> _DXjaMSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _EE0PESsBEey3btEC6p-NLw
+  		}
   	}
   	
   	End _zjxYYSlwEeyVOqAhuyE3dg at 180,160 size 96,32 {
   	}
   	
-  	DocNode _DXjaMSlxEeyVOqAhuyE3dg at 95,106 size 100,50 {
+  	DocNode _DXjaMSlxEeyVOqAhuyE3dg at 81,90 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_AbVWIClwEeyVOqAhuyE3dg"
+  		-Edge-> _zjxYYSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _EXeFUSsBEey3btEC6p-NLw
+  		}
   	}
   }
   
   FeatureContainer _Pu608SlwEeyVOqAhuyE3dg at 250,340 size 300,197 {
   	title "Delete List"
   	Start _wYOCYSlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
+  		-Edge-> _3Z4HQSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _DbAdESsBEey3btEC6p-NLw
+  		}
   	}
   	
   	End _z4kjsClwEeyVOqAhuyE3dg at 190,150 size 96,32 {
@@ -81,12 +114,18 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	DocNode _3Z4HQSlwEeyVOqAhuyE3dg at 80,88 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_5BaiQSlvEeyVOqAhuyE3dg"
+  		-Edge-> _z4kjsClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _D03ukSsBEey3btEC6p-NLw
+  		}
   	}
   }
   
   FeatureContainer _Q_P0YSlwEeyVOqAhuyE3dg at 30,110 size 201,205 {
   	title "Login"
   	Start _TWSkQClwEeyVOqAhuyE3dg at 50,20 size 96,32 {
+  		-Edge-> _UN3sgSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _KpMJwCr7Eey3btEC6p-NLw
+  		}
   	}
   	
   	End _Ts34QSlwEeyVOqAhuyE3dg at 40,150 size 96,32 {
@@ -95,6 +134,17 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	DocNode _UN3sgSlwEeyVOqAhuyE3dg at 48,80 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_fuP04ClvEeyVOqAhuyE3dg"
+  		-Edge-> _Ts34QSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _K6hKUSr7Eey3btEC6p-NLw
+  		}
+  	}
+  }
+  
+  PropertyContainer _KFJZ0SsBEey3btEC6p-NLw at 30,20 size 300,75 {
+  	title "Selenium Properties"
+  	WebDriver _LXcvMSsBEey3btEC6p-NLw at 20,30 size 100,32 {
+  		path "/home/mukendi/opt/WebDriver/bin/geckodriver"
+  		name firefox
   	}
   }
 }
