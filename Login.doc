@@ -1,3 +1,72 @@
 DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   modelName "UserLogin"
+  Start _dXvqsS1YEeydE5SriVPFAA at 50,260 size 96,32 {
+  	-Transition-> _ePxe4C1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  		id _gcXSQC1YEeydE5SriVPFAA
+  	}
+  }
+  
+  End _dskrMS1YEeydE5SriVPFAA at 870,330 size 96,32 {
+  }
+  
+  Navigation _ePxe4C1YEeydE5SriVPFAA at 200,260 size 100,32 {
+  	link "http://localhost:8080"
+  	-Transition-> _ej0cQC1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  		id _g6FJAC1YEeydE5SriVPFAA
+  	}
+  }
+  
+  Screenshot _ej0cQC1YEeydE5SriVPFAA at 345,260 size 32,32 {
+  	pictureName "Application Landing Page"
+  	description _ij2jMC1YEeydE5SriVPFAA
+  	-Transition-> _N9QdMC1ZEeydE5SriVPFAA  decorate "" at (0,0) {
+  		id _S0wXoS1ZEeydE5SriVPFAA
+  	}
+  }
+  
+  Comment _ij2jMC1YEeydE5SriVPFAA at 50,180 size 461,40 {
+  	content "The application landing page is also the login interface.\nUsername and password are required to access to the dashboard and manage the todo list."
+  	referenceTo _ej0cQC1YEeydE5SriVPFAA
+  	-Anchor-> _ej0cQC1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  		id _nPM4AC1YEeydE5SriVPFAA
+  	}
+  }
+  
+  SectionNode _N9QdMC1ZEeydE5SriVPFAA at 530,178 size 300,196 {
+  	title "Enter User Credentials"
+  	Form _XlzEwC1ZEeydE5SriVPFAA at 30,42 size 180,91 {
+  		highlighted false
+  		selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form"
+  		documenation "Lorem ipsum dolor et si met."
+  		Input _njIOsC1aEeydE5SriVPFAA at 30,10 size 100,32 {
+  			content "peter"
+  			highlighted true
+  			selector "#username"
+  			documenation "Lorem ipsum dolor et si met."
+  			-Transition-> _n_QKAS1aEeydE5SriVPFAA  decorate "" at (0,0) {
+  				id _IBuoAS1bEeydE5SriVPFAA
+  			}
+  		}
+  		
+  		Input _n_QKAS1aEeydE5SriVPFAA at 30,50 size 100,32 {
+  			content "pwd"
+  			highlighted true
+  			selector "#password"
+  			documenation "Lorem ipsum dolor et si met."
+  			-Transition-> _YThtcC1ZEeydE5SriVPFAA via (640,344) decorate "" at (0,0) {
+  				id _Ibpj4S1bEeydE5SriVPFAA
+  			}
+  		}
+  	}
+  	
+  	Button _YThtcC1ZEeydE5SriVPFAA at 190,152 size 90,30 {
+  		content "Login"
+  		highlighted true
+  		selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button"
+  		documenation "Lorem ipsum dolor et si met."
+  		-Transition-> _dskrMS1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  			id _DmWB0C1bEeydE5SriVPFAA
+  		}
+  	}
+  }
 }

@@ -144,7 +144,7 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	title "Selenium Properties"
   	WebDriver _LXcvMSsBEey3btEC6p-NLw at 20,30 size 100,32 {
   		path "/home/mukendi/opt/WebDriver/bin/geckodriver"
-  		name firefox
+  		name FIREFOX
   	}
   }
 }
