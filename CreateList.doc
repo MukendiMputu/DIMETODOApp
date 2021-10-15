@@ -1,3 +1,78 @@
 DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   modelName "CreateNewList"
+  StartNode _wfqIwS3yEeywp9dqXWnVHg at 90,250 size 96,32 {
+  	-Transition-> _dWK58S3zEeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _4WK8kS3zEeywp9dqXWnVHg
+  	}
+  }
+  
+  EndNode _wzPzIS3yEeywp9dqXWnVHg at 910,250 size 96,32 {
+  }
+  
+  Button _6Fs18C3yEeywp9dqXWnVHg at 530,249 size 102,34 {
+  	content "+List"
+  	highlighted false
+  	selector "#form424309088 > button"
+  	documenation ""
+  	-Transition-> _rf34MS32Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _IkALMS32Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Input _dWK58S3zEeywp9dqXWnVHg at 320,249 size 102,34 {
+  	content "Shopping"
+  	highlighted true
+  	selector "input[class='form-control']"
+  	documenation "On the dashboard - with no todo list yet - enter a descriptive name for the new list you want to create,\nand press Enter or click the \"+List\" button."
+  	-Transition-> _2F14sS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _4ogpwC3zEeywp9dqXWnVHg
+  	}
+  }
+  
+  Timer _2F14sS3zEeywp9dqXWnVHg at 440,250 size 32,32 {
+  	condition presenceOfElementLocated
+  	cssSelector ""
+  	-Transition-> _2jSpsS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _5PjboC3zEeywp9dqXWnVHg
+  	}
+  }
+  
+  Screenshot _2jSpsS3zEeywp9dqXWnVHg at 480,250 size 32,32 {
+  	pictureName "EnterListName"
+  	description _xyXxAS32Eeywp9dqXWnVHg
+  	-Transition-> _6Fs18C3yEeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _5dNdIS3zEeywp9dqXWnVHg
+  	}
+  }
+  
+  Timer _rf34MS32Eeywp9dqXWnVHg at 700,250 size 32,32 {
+  	condition presenceOfElementLocated
+  	cssSelector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel > div"
+  	-Transition-> _AqpM0S33Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _Gbxd8S33Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Comment _xyXxAS32Eeywp9dqXWnVHg at 421,320 size 100,40 {
+  	content "Creating a new todo list"
+  	referenceTo _2jSpsS3zEeywp9dqXWnVHg
+  	-Anchor-> _2jSpsS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _8J7asC32Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Screenshot _AqpM0S33Eeywp9dqXWnVHg at 790,250 size 32,32 {
+  	description _EZJe4S33Eeywp9dqXWnVHg
+  	-Transition-> _wzPzIS3yEeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _GrtXYS33Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Comment _EZJe4S33Eeywp9dqXWnVHg at 750,330 size 100,40 {
+  	content "A new list with no entry yet has been created."
+  	referenceTo _AqpM0S33Eeywp9dqXWnVHg
+  	-Anchor-> _AqpM0S33Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _HYzG4S33Eeywp9dqXWnVHg
+  	}
+  }
 }

@@ -6,12 +6,12 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   	}
   }
   
-  EndNode _dskrMS1YEeydE5SriVPFAA at 870,360 size 96,32 {
+  EndNode _dskrMS1YEeydE5SriVPFAA at 960,360 size 96,32 {
   }
   
   Navigation _ePxe4C1YEeydE5SriVPFAA at 200,260 size 100,32 {
   	link "http://localhost:8080"
-  	-Transition-> _ej0cQC1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  	-Transition-> _86k4sC3vEeyl0oUZox1xpw  decorate "" at (0,0) {
   		id _g6FJAC1YEeydE5SriVPFAA
   	}
   }
@@ -37,12 +37,12 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   	Form _XlzEwC1ZEeydE5SriVPFAA at 30,42 size 180,109 {
   		highlighted false
   		selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form"
-  		documenation "Lorem ipsum dolor et si met."
+  		documenation "After you've entered the correct username and password, click the Login button to acces the application dashboard."
   		Input _njIOsC1aEeydE5SriVPFAA at 30,10 size 100,32 {
   			content "peter"
   			highlighted true
   			selector "#username"
-  			documenation "Lorem ipsum dolor et si met."
+  			documenation ""
   			-Transition-> _n_QKAS1aEeydE5SriVPFAA  decorate "" at (0,0) {
   				id _IBuoAS1bEeydE5SriVPFAA
   			}
@@ -52,7 +52,7 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   			content "pwd"
   			highlighted true
   			selector "#password"
-  			documenation "Lorem ipsum dolor et si met."
+  			documenation ""
   		}
   		-Transition-> _YThtcC1ZEeydE5SriVPFAA via (629,376) decorate "" at (0,0) {
   			id _Ibpj4S1bEeydE5SriVPFAA
@@ -63,10 +63,41 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   		content "Login"
   		highlighted true
   		selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button"
-  		documenation "Lorem ipsum dolor et si met."
-  		-Transition-> _dskrMS1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  		documenation ""
+  		-Transition-> _DGqLAS3xEeyhPrHBltt7Ag  decorate "" at (0,0) {
   			id _DmWB0C1bEeydE5SriVPFAA
   		}
+  	}
+  }
+  
+  Timer _86k4sC3vEeyl0oUZox1xpw at 310,210 size 32,32 {
+  	condition presenceOfElementLocated
+  	cssSelector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div"
+  	-Transition-> _ej0cQC1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  		id _z55QcS3xEeyhPrHBltt7Ag
+  	}
+  }
+  
+  Timer _DGqLAS3xEeyhPrHBltt7Ag at 830,410 size 32,32 {
+  	condition presenceOfElementLocated
+  	cssSelector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button"
+  	-Transition-> _DuSywS3xEeyhPrHBltt7Ag  decorate "" at (0,0) {
+  		id _0z5akS3xEeyhPrHBltt7Ag
+  	}
+  }
+  
+  Screenshot _DuSywS3xEeyhPrHBltt7Ag at 890,410 size 32,32 {
+  	description _Rc5bUS3yEeywp9dqXWnVHg
+  	-Transition-> _dskrMS1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  		id _1BTkcS3xEeyhPrHBltt7Ag
+  	}
+  }
+  
+  Comment _Rc5bUS3yEeywp9dqXWnVHg at 900,490 size 100,40 {
+  	content "How to fill in username and password."
+  	referenceTo _DuSywS3xEeyhPrHBltt7Ag
+  	-Anchor-> _DuSywS3xEeyhPrHBltt7Ag  decorate "" at (0,0) {
+  		id _VyPq8S3yEeywp9dqXWnVHg
   	}
   }
 }

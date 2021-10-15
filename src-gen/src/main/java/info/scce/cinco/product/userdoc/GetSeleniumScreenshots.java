@@ -32,6 +32,7 @@ class GetSeleniumScreenshots implements Runnable{
 	private static String email;
 	private static WebDriver firefoxDriver;
 	private static WebDriverWait wait;
+	private static Wait<WebDriver> fluentWait;
 	// No Selenium Property were specified
 	private static WebElement element;
 	private static Long DEFAULT_TIMEOUT = 10L;
@@ -43,6 +44,10 @@ class GetSeleniumScreenshots implements Runnable{
 		System.setProperty("webdriver.gecko.driver", "/home/mukendi/opt/WebDriver/bin/geckodriver");
 		firefoxDriver = new FirefoxDriver();
 		wait = new WebDriverWait(firefoxDriver, Duration.ofSeconds(DEFAULT_TIMEOUT));
+		fluentWait = new FluentWait<WebDriver>(firefoxDriver)
+					    .withTimeout(30, SECONDS)
+					    .pollingEvery(5, SECONDS)
+					    .ignoring(NoSuchElementException.class);
 		element = null;
 	}
 

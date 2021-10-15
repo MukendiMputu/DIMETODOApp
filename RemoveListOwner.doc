@@ -1,3 +1,45 @@
 DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   modelName "RemoveListOwner"
+  Timer _LN8vUS3-Eeywp9dqXWnVHg at 360,270 size 32,32 {
+  	condition presenceOfElementLocated
+  	cssSelector "table[class=\"table table-striped table-hover table-condensed\"] > tbody > tr"
+  	-Transition-> _LN9WYy3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _LN9WYS3-Eeywp9dqXWnVHg
+  	}
+  }
+  
+  EndNode _LN99ci3-Eeywp9dqXWnVHg at 723,270 size 96,32 {
+  }
+  
+  Screenshot _LN9WYy3-Eeywp9dqXWnVHg at 460,270 size 32,32 {
+  	-Transition-> _LN_LkS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _LN-kgy3-Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Button _LN_LkS3-Eeywp9dqXWnVHg at 540,270 size 102,34 {
+  	content "Remove"
+  	highlighted false
+  	selector "table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label=\"Remove Owner\"]"
+  	documenation "To remove a list owner, click on the remove button located on the right-hand side of the owner lastname."
+  	-Transition-> _LN99ci3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _LOAZsS3-Eeywp9dqXWnVHg
+  	}
+  }
+  
+  TableRow _LOBAwS3-Eeywp9dqXWnVHg at 200,266 size 90,40 {
+  	content "nb"
+  	highlighted true
+  	selector "table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr:nth-child(2) "
+  	documenation "A list owner is represented in a single row, showing firstname, lastname and the action that can be perform on this specific list owner."
+  	-Transition-> _LN8vUS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _LOBn0S3-Eeywp9dqXWnVHg
+  	}
+  }
+  
+  StartNode _LOBn1y3-Eeywp9dqXWnVHg at 40,270 size 96,32 {
+  	-Transition-> _LOBAwS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _LOBn1S3-Eeywp9dqXWnVHg
+  	}
+  }
 }

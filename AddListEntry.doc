@@ -1,3 +1,55 @@
 DocGraphModel _kIGxESlvEeyVOqAhuyE3dg {
   modelName "AddListEntry"
+  StartNode _ANnVwC37Eeywp9dqXWnVHg at 140,250 size 96,32 {
+  	-Transition-> _HCgxAS37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _fX0H8S37Eeywp9dqXWnVHg
+  	}
+  }
+  
+  EndNode _Ajmz4S37Eeywp9dqXWnVHg at 870,251 size 96,32 {
+  }
+  
+  Input _HCgxAS37Eeywp9dqXWnVHg at 300,250 size 102,34 {
+  	content "return t-shirt"
+  	highlighted true
+  	selector "/html/body/app/routable-aycj5qmwmeewzvvvwxpyu8a-process/root-home-aycj5qmwmeewzvvvwxpyu8a-process/home-aycj5qmwmeewzvvvwxpyu8a-process/home-tag/div/div/div/dime-panel[1]/div/div[2]/manageentries-tag/div[4]/div/addtodo-tag/div/div/form-_vof6spvueewwodzolky4iq-addtodo/form/div/input"
+  	documenation "To add a list entry, first tip in the description of task in the input field,\nthen click the \"+ TODO\" button bellow or just press Enter on your keyboard."
+  	-Transition-> _hZjWMS37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _i_D7cS37Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Timer _hZjWMS37Eeywp9dqXWnVHg at 480,251 size 32,32 {
+  	condition presenceOfElementLocated
+  	cssSelector ""
+  	-Transition-> _hsHF0S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _jK9pcS37Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Screenshot _hsHF0S37Eeywp9dqXWnVHg at 570,250 size 32,32 {
+  	pictureName "Add list Entry"
+  	description _lgzfcC37Eeywp9dqXWnVHg
+  	-Transition-> _iQ508S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _jXUqcS37Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Button _iQ508S37Eeywp9dqXWnVHg at 690,250 size 102,34 {
+  	content "+TODO"
+  	highlighted false
+  	selector "form[style~=\"margin-bottom: 15px;\" > button[type=submit]"
+  	documenation ""
+  	-Transition-> _Ajmz4S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _ioP98S37Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Comment _lgzfcC37Eeywp9dqXWnVHg at 540,340 size 100,40 {
+  	content "Creating a new task."
+  	referenceTo _hsHF0S37Eeywp9dqXWnVHg
+  	-Anchor-> _hsHF0S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _lwgIUS37Eeywp9dqXWnVHg
+  	}
+  }
 }

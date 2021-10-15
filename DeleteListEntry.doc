@@ -1,3 +1,45 @@
 DocGraphModel _AbVWIClwEeyVOqAhuyE3dg {
   modelName "DeleteListEntry"
+  StartNode _VOxJcS39Eeywp9dqXWnVHg at 40,270 size 96,32 {
+  	-Transition-> _WrJn4C39Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _xb1cIS39Eeywp9dqXWnVHg
+  	}
+  }
+  
+  EndNode _VkeTsS39Eeywp9dqXWnVHg at 690,270 size 96,32 {
+  }
+  
+  TableRow _WrJn4C39Eeywp9dqXWnVHg at 200,266 size 90,40 {
+  	content "nb"
+  	highlighted true
+  	selector "table[class=\"table table-striped table-hover table-condensed\"] > tbody > tr"
+  	documenation "A list entry is represented in a single row, showing the description and the action that can be perform on this specific list item."
+  	-Transition-> _ybxPIS39Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _1YXjIS39Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Timer _ybxPIS39Eeywp9dqXWnVHg at 360,270 size 32,32 {
+  	condition presenceOfElementLocated
+  	cssSelector "table[class=\"table table-striped table-hover table-condensed\"] > tbody > tr"
+  	-Transition-> _ysS-cS39Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _1pOpoS39Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Screenshot _ysS-cS39Eeywp9dqXWnVHg at 460,270 size 32,32 {
+  	-Transition-> _2a8acC39Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _HYVvsS3-Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Button _2a8acC39Eeywp9dqXWnVHg at 550,269 size 102,34 {
+  	content "Remove"
+  	highlighted false
+  	selector "table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label=\"Delete TODO\"]"
+  	documenation "To remove a list item, click on the remove button located on the right of the task description."
+  	-Transition-> _VkeTsS39Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _HoHRES3-Eeywp9dqXWnVHg
+  	}
+  }
 }
