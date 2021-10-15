@@ -1,11 +1,3 @@
 DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   modelName "CreateNewList"
-  Start _FeT68S1ZEeydE5SriVPFAA at 30,210 size 96,32 {
-  	-Transition-> _F1z08S1ZEeydE5SriVPFAA  decorate "" at (0,0) {
-  		id _Lj5uQS1bEeydE5SriVPFAA
-  	}
-  }
-  
-  End _F1z08S1ZEeydE5SriVPFAA at 1050,210 size 96,32 {
-  }
 }

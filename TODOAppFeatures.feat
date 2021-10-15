@@ -1,5 +1,5 @@
 FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
-  modelName "New Feature"
+  modelName "TODO App Features"
   FeatureContainer _MvEYoClwEeyVOqAhuyE3dg at 250,110 size 300,205 {
   	title "Create New List"
   	Start _uGWtcSlwEeyVOqAhuyE3dg at 60,40 size 96,32 {
