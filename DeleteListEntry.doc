@@ -28,6 +28,8 @@ DocGraphModel _AbVWIClwEeyVOqAhuyE3dg {
   }
   
   Screenshot _ysS-cS39Eeywp9dqXWnVHg at 460,270 size 32,32 {
+  	pictureName "removing list entry"
+  	description _1akRcTBAEey2C7DhOGitzQ
   	-Transition-> _2a8acC39Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _HYVvsS3-Eeywp9dqXWnVHg
   	}
@@ -40,6 +42,14 @@ DocGraphModel _AbVWIClwEeyVOqAhuyE3dg {
   	documenation "To remove a list item, click on the remove button located on the right of the task description."
   	-Transition-> _VkeTsS39Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _HoHRES3-Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Comment _1akRcTBAEey2C7DhOGitzQ at 360,350 size 100,40 {
+  	content "The red button on the right-hand side removes the corresponding list entry."
+  	referenceTo _ysS-cS39Eeywp9dqXWnVHg
+  	-Anchor-> _ysS-cS39Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _AzU5cDBBEey2C7DhOGitzQ
   	}
   }
 }

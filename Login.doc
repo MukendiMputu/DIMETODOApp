@@ -87,13 +87,14 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   }
   
   Screenshot _DuSywS3xEeyhPrHBltt7Ag at 890,410 size 32,32 {
+  	pictureName "UserDashboard"
   	description _Rc5bUS3yEeywp9dqXWnVHg
   	-Transition-> _dskrMS1YEeydE5SriVPFAA  decorate "" at (0,0) {
   		id _1BTkcS3xEeyhPrHBltt7Ag
   	}
   }
   
-  Comment _Rc5bUS3yEeywp9dqXWnVHg at 900,490 size 100,40 {
+  Comment _Rc5bUS3yEeywp9dqXWnVHg at 900,490 size 186,40 {
   	content "How to fill in username and password."
   	referenceTo _DuSywS3xEeyhPrHBltt7Ag
   	-Anchor-> _DuSywS3xEeyhPrHBltt7Ag  decorate "" at (0,0) {

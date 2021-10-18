@@ -12,6 +12,8 @@ DocGraphModel _l6Wx0SlvEeyVOqAhuyE3dg {
   }
   
   Screenshot _Ks87Ey3-Eeywp9dqXWnVHg at 430,209 size 32,32 {
+  	pictureName "Adding list owner"
+  	description _nDvV0TBAEey2C7DhOGitzQ
   	-Transition-> _Ks-wQy3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _HisPcS4HEeyVW9L7egqzag
   	}
@@ -40,6 +42,14 @@ DocGraphModel _l6Wx0SlvEeyVOqAhuyE3dg {
   	documenation "To add a list owner, first select an existing user in the select box,\nthen click the \"+\" button right underneath."
   	-Transition-> _Ks7s8S3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _TpFBMS4BEeywp9dqXWnVHg
+  	}
+  }
+  
+  Comment _nDvV0TBAEey2C7DhOGitzQ at 410,280 size 100,40 {
+  	content "Select an existing user from the dropdown list and click \"+\"."
+  	referenceTo _Ks87Ey3-Eeywp9dqXWnVHg
+  	-Anchor-> _Ks87Ey3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _y9bgoTBAEey2C7DhOGitzQ
   	}
   }
 }

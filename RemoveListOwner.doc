@@ -12,6 +12,8 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   }
   
   Screenshot _LN9WYy3-Eeywp9dqXWnVHg at 460,270 size 32,32 {
+  	pictureName "removing list owner"
+  	description _FWI9UDBBEey2C7DhOGitzQ
   	-Transition-> _LN_LkS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _LN-kgy3-Eeywp9dqXWnVHg
   	}
@@ -40,6 +42,14 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   StartNode _LOBn1y3-Eeywp9dqXWnVHg at 40,270 size 96,32 {
   	-Transition-> _LOBAwS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _LOBn1S3-Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Comment _FWI9UDBBEey2C7DhOGitzQ at 490,370 size 100,40 {
+  	content "To remove a list owner click on the red button on the right-hand side of the name."
+  	referenceTo _LN9WYy3-Eeywp9dqXWnVHg
+  	-Anchor-> _LN9WYy3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _F2zaYTBBEey2C7DhOGitzQ
   	}
   }
 }
