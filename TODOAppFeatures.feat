@@ -1,6 +1,8 @@
 FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   modelName "TODO App Features"
+  documenation "Lorem ipsum dolor et si met."
   FeatureContainer _MvEYoClwEeyVOqAhuyE3dg at 250,110 size 300,205 {
+  	documentation "This feature is about ..."
   	title "Create New List"
   	Start _uGWtcSlwEeyVOqAhuyE3dg at 60,40 size 96,32 {
   		-Edge-> _296kASlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
@@ -21,6 +23,7 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   }
   
   FeatureContainer _NR4KwSlwEeyVOqAhuyE3dg at 560,110 size 300,205 {
+  	documentation "This feature is about ..."
   	title "Add List Entry"
   	Start _vXe-ISlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
   		-Edge-> _01e34SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
@@ -41,6 +44,7 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   }
   
   FeatureContainer _OTjDIClwEeyVOqAhuyE3dg at 870,110 size 300,205 {
+  	documentation "This feature is about ..."
   	title "Add List Owner"
   	Start _vyYKYSlwEeyVOqAhuyE3dg at 20,30 size 96,32 {
   		-Edge-> _2NcwYSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
@@ -61,6 +65,7 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   }
   
   FeatureContainer _O_5y0SlwEeyVOqAhuyE3dg at 870,340 size 300,197 {
+  	documentation "This feature is about ..."
   	title "Remove List Owner"
   	Start _xMIyoSlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
   		-Edge-> _EMDZRSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
@@ -81,6 +86,7 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   }
   
   FeatureContainer _PYBX4SlwEeyVOqAhuyE3dg at 560,340 size 300,197 {
+  	documentation "This feature is about ..."
   	title "Delete List Entry"
   	Start _wyu0ISlwEeyVOqAhuyE3dg at 20,40 size 96,32 {
   		-Edge-> _DXjaMSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
@@ -101,6 +107,7 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   }
   
   FeatureContainer _Pu608SlwEeyVOqAhuyE3dg at 250,340 size 300,197 {
+  	documentation "This feature is about ..."
   	title "Delete List"
   	Start _wYOCYSlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
   		-Edge-> _3Z4HQSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
@@ -121,6 +128,7 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   }
   
   FeatureContainer _Q_P0YSlwEeyVOqAhuyE3dg at 30,110 size 201,205 {
+  	documentation "The landing page of the TODO App is the login page. To be able to access the dashboard, provide the user credentials of an existing user."
   	title "Login"
   	Start _TWSkQClwEeyVOqAhuyE3dg at 50,20 size 96,32 {
   		-Edge-> _UN3sgSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {

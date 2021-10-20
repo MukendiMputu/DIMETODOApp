@@ -1,14 +1,13 @@
 # Delete List
 
-This feature starts with the "DeleteList" sequence.
+This feature is about ...
 
-## section 1
+## DeleteList
 
-![image-1](./1.png)
+A list is represented 
 
-here comes the description for the image shown above.
+![ListSectionhighlighted_](./ListSectionhighlighted_.png)
+Descriptive text about this element.
 
-![image-2](./2.png)
 
-here comes the second description for the image shown above.
 

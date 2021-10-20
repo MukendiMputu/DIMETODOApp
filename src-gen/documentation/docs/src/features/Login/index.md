@@ -1,14 +1,15 @@
 # Login
 
-This feature starts with the "UserLogin" sequence.
+The landing page of the TODO App is the login page. To be able to access the dashboard, provide the user credentials of an existing user.
 
-## section 1
+## UserLogin
 
-![image-1](./1.png)
+Descriptive text about this element.
 
-here comes the description for the image shown above.
+![ApplicationLandingPage](./ApplicationLandingPage.png)
+Descriptive text about this element.
 
-![image-2](./2.png)
+After you've entered the correct username and password, click the Login button to acces the application dashboard.
 
-here comes the second description for the image shown above.
-
+![UserDashboard](./UserDashboard.png)
+Descriptive text about this element.

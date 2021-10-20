@@ -13,7 +13,7 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	content "+List"
   	highlighted false
   	selector "#form424309088 > button"
-  	documenation ""
+  	documentation ""
   	-Transition-> _rf34MS32Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _IkALMS32Eeywp9dqXWnVHg
   	}
@@ -23,7 +23,7 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	content "Shopping"
   	highlighted true
   	selector "input[class='form-control']"
-  	documenation "On the dashboard - with no todo list yet - enter a descriptive name for the new list you want to create,\nand press Enter or click the \"+List\" button."
+  	documentation "On the dashboard - with no todo list yet - enter a descriptive name for the new list you want to create,\nand press Enter or click the \"+List\" button."
   	-Transition-> _2F14sS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _4ogpwC3zEeywp9dqXWnVHg
   	}
@@ -55,7 +55,6 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   
   Comment _xyXxAS32Eeywp9dqXWnVHg at 421,320 size 117,40 {
   	content "Creating a new todo list"
-  	referenceTo _2jSpsS3zEeywp9dqXWnVHg
   	-Anchor-> _2jSpsS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _8J7asC32Eeywp9dqXWnVHg
   	}
@@ -71,7 +70,6 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   
   Comment _EZJe4S33Eeywp9dqXWnVHg at 750,330 size 220,40 {
   	content "A new list with no entry yet has been created."
-  	referenceTo _AqpM0S33Eeywp9dqXWnVHg
   	-Anchor-> _AqpM0S33Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _HYzG4S33Eeywp9dqXWnVHg
   	}

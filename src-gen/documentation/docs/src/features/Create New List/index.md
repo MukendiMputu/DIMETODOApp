@@ -1,14 +1,19 @@
 # Create New List
 
-This feature starts with the "CreateNewList" sequence.
+This feature is about ...
 
-## section 1
+## CreateNewList
 
-![image-1](./1.png)
+On the dashboard - with no todo list yet - enter a descriptive name for the new list you want to create,
+and press Enter or click the "+List" button.
 
-here comes the description for the image shown above.
 
-![image-2](./2.png)
+![EnterListName](./EnterListName.png)
+Descriptive text about this element.
 
-here comes the second description for the image shown above.
+
+
+![ListCreated](./ListCreated.png)
+Descriptive text about this element.
+
 

@@ -1,14 +1,16 @@
 # Add List Owner
 
-This feature starts with the "AddListOwner" sequence.
+This feature is about ...
 
-## section 1
+## AddListOwner
 
-![image-1](./1.png)
+To add a list owner, first select an existing user in the select box,
+then click the "+" button right underneath.
 
-here comes the description for the image shown above.
 
-![image-2](./2.png)
+![Addinglistowner](./Addinglistowner.png)
+Descriptive text about this element.
 
-here comes the second description for the image shown above.
+Click on the add button located right below the select field.
+
 

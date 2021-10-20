@@ -1,14 +1,15 @@
 # Add List Entry
 
-This feature starts with the "AddListEntry" sequence.
+This feature is about ...
 
-## section 1
+## AddListEntry
 
-![image-1](./1.png)
+To add a list entry, first tip in the description of task in the input field,
+then click the "+ TODO" button bellow or just press Enter on your keyboard.
 
-here comes the description for the image shown above.
 
-![image-2](./2.png)
+![AddlistEntry](./AddlistEntry.png)
+Descriptive text about this element.
 
-here comes the second description for the image shown above.
+
 

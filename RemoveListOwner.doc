@@ -23,7 +23,7 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   	content "Remove"
   	highlighted false
   	selector "table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label=\"Remove Owner\"]"
-  	documenation "To remove a list owner, click on the remove button located on the right-hand side of the owner lastname."
+  	documentation "To remove a list owner, click on the remove button located on the right-hand side of the owner lastname."
   	-Transition-> _LN99ci3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _LOAZsS3-Eeywp9dqXWnVHg
   	}
@@ -33,7 +33,7 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   	content "nb"
   	highlighted true
   	selector "table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr:nth-child(2) "
-  	documenation "A list owner is represented in a single row, showing firstname, lastname and the action that can be perform on this specific list owner."
+  	documentation "A list owner is represented in a single row, showing firstname, lastname and the action that can be perform on this specific list owner."
   	-Transition-> _LN8vUS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _LOBn0S3-Eeywp9dqXWnVHg
   	}
@@ -47,7 +47,6 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   
   Comment _FWI9UDBBEey2C7DhOGitzQ at 490,370 size 100,40 {
   	content "To remove a list owner click on the red button on the right-hand side of the name."
-  	referenceTo _LN9WYy3-Eeywp9dqXWnVHg
   	-Anchor-> _LN9WYy3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _F2zaYTBBEey2C7DhOGitzQ
   	}

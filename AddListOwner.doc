@@ -23,7 +23,7 @@ DocGraphModel _l6Wx0SlvEeyVOqAhuyE3dg {
   	content "Add"
   	highlighted false
   	selector "form[id*=\"form\"] > button[aria-label=\"Add Owner\"][class=\"btn btn-success\"]"
-  	documenation "Click on the add button located right below the select field."
+  	documentation "Click on the add button located right below the select field."
   	-Transition-> _Ks-JMS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _HxC0gS4HEeyVW9L7egqzag
   	}
@@ -39,7 +39,7 @@ DocGraphModel _l6Wx0SlvEeyVOqAhuyE3dg {
   	option "Mary Jane"
   	highlighted true
   	selector "div.col-sm-12 > form > div.form-group >select.form-control"
-  	documenation "To add a list owner, first select an existing user in the select box,\nthen click the \"+\" button right underneath."
+  	documentation "To add a list owner, first select an existing user in the select box,\nthen click the \"+\" button right underneath."
   	-Transition-> _Ks7s8S3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _TpFBMS4BEeywp9dqXWnVHg
   	}
@@ -47,7 +47,6 @@ DocGraphModel _l6Wx0SlvEeyVOqAhuyE3dg {
   
   Comment _nDvV0TBAEey2C7DhOGitzQ at 410,280 size 100,40 {
   	content "Select an existing user from the dropdown list and click \"+\"."
-  	referenceTo _Ks87Ey3-Eeywp9dqXWnVHg
   	-Anchor-> _Ks87Ey3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _y9bgoTBAEey2C7DhOGitzQ
   	}

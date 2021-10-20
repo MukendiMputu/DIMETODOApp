@@ -26,6 +26,8 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
  *
  * @author Mukendi Mputu
  */
+
+@SuppressWarnings("unused")
 class GetSeleniumScreenshots implements Runnable{
 	// User Credentials
 	private static String username;
@@ -60,7 +62,7 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Create New List
 			try {
 				// DocNode CreateNewList
-				this.highlightElement(input[class='form-control']); 
+				this.highlightElement("input[class=\'form-control\']"); 
 				this.typeIn("input[class=\'form-control\']", "Shopping");
 				this.takePageScreenshot("Create New List", "EnterListName");
 				this.clickBtn("#form424309088 > button");
@@ -73,10 +75,10 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Add List Entry
 			try {
 				// DocNode AddListEntry
-				this.highlightElement(/html/body/app/routable-aycj5qmwmeewzvvvwxpyu8a-process/root-home-aycj5qmwmeewzvvvwxpyu8a-process/home-aycj5qmwmeewzvvvwxpyu8a-process/home-tag/div/div/div/dime-panel[1]/div/div[2]/manageentries-tag/div[4]/div/addtodo-tag/div/div/form-_vof6spvueewwodzolky4iq-addtodo/form/div/input); 
+				this.highlightElement("/html/body/app/routable-aycj5qmwmeewzvvvwxpyu8a-process/root-home-aycj5qmwmeewzvvvwxpyu8a-process/home-aycj5qmwmeewzvvvwxpyu8a-process/home-tag/div/div/div/dime-panel[1]/div/div[2]/manageentries-tag/div[4]/div/addtodo-tag/div/div/form-_vof6spvueewwodzolky4iq-addtodo/form/div/input"); 
 				this.typeIn("/html/body/app/routable-aycj5qmwmeewzvvvwxpyu8a-process/root-home-aycj5qmwmeewzvvvwxpyu8a-process/home-aycj5qmwmeewzvvvwxpyu8a-process/home-tag/div/div/div/dime-panel[1]/div/div[2]/manageentries-tag/div[4]/div/addtodo-tag/div/div/form-_vof6spvueewwodzolky4iq-addtodo/form/div/input", "return t-shirt");
 				this.takePageScreenshot("Add List Entry", "AddlistEntry");
-				this.clickBtn("form[style~="margin-bottom: 15px;" > button[type=submit]");
+				this.clickBtn("form[style~=\"margin-bottom: 15px;\" > button[type=submit]");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -85,10 +87,10 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Add List Owner
 			try {
 				// DocNode AddListOwner
-				this.highlightElement(div.col-sm-12 > form > div.form-group >select.form-control); 
+				this.highlightElement("div.col-sm-12 > form > div.form-group >select.form-control"); 
 				this.select("div.col-sm-12 > form > div.form-group >select.form-control", "Mary Jane");
 				this.takePageScreenshot("Add List Owner", "Addinglistowner");
-				this.clickBtn("form[id*="form"] > button[aria-label="Add Owner"][class="btn btn-success"]");
+				this.clickBtn("form[id*=\"form\"] > button[aria-label=\"Add Owner\"][class=\"btn btn-success\"]");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -97,9 +99,9 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Remove List Owner
 			try {
 				// DocNode RemoveListOwner
-				this.highlightElement(table[class="table table-striped table-hover table-condensed"]  > tbody > tr:nth-child(2) ); 
+				this.highlightElement("table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr:nth-child(2) "); 
 				this.takePageScreenshot("Remove List Owner", "removinglistowner");
-				this.clickBtn("table[class="table table-striped table-hover table-condensed"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label="Remove Owner"]");
+				this.clickBtn("table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label=\"Remove Owner\"]");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -108,9 +110,9 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Delete List Entry
 			try {
 				// DocNode DeleteListEntry
-				this.highlightElement(table[class="table table-striped table-hover table-condensed"] > tbody > tr); 
+				this.highlightElement("table[class=\"table table-striped table-hover table-condensed\"] > tbody > tr"); 
 				this.takePageScreenshot("Delete List Entry", "removinglistentry");
-				this.clickBtn("table[class="table table-striped table-hover table-condensed"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label="Delete TODO"]");
+				this.clickBtn("table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label=\"Delete TODO\"]");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -119,7 +121,7 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Delete List
 			try {
 				// DocNode DeleteList
-				this.highlightElement(body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel:nth-child(2) > div); 
+				this.highlightElement("body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel:nth-child(2) > div"); 
 				this.takePageScreenshot("Delete List", "ListSectionhighlighted_");
 				this.clickBtn("body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel:nth-child(2) > div > div.panel-body > div > div > div > div > button");
 			} catch (Exception e) {
@@ -132,11 +134,11 @@ class GetSeleniumScreenshots implements Runnable{
 				// DocNode UserLogin
 				this.goToPage("http://localhost:8080");
 				this.takePageScreenshot("Login", "ApplicationLandingPage");
-				this.highlightElement(#username); 
+				this.highlightElement("#username"); 
 				this.typeIn("#username", "peter");
-				this.highlightElement(#password); 
+				this.highlightElement("#password"); 
 				this.typeIn("#password", "pwd");
-				this.highlightElement(body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button); 
+				this.highlightElement("body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button"); 
 				this.clickBtn("body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button");
 				this.takePageScreenshot("Login", "UserDashboard");
 			} catch (Exception e) {

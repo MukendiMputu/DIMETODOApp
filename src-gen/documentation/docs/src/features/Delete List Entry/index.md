@@ -1,14 +1,15 @@
 # Delete List Entry
 
-This feature starts with the "DeleteListEntry" sequence.
+This feature is about ...
 
-## section 1
+## DeleteListEntry
 
-![image-1](./1.png)
+A list entry is represented in a single row, showing the description and the action that can be perform on this specific list item.
 
-here comes the description for the image shown above.
 
-![image-2](./2.png)
+![removinglistentry](./removinglistentry.png)
+Descriptive text about this element.
 
-here comes the second description for the image shown above.
+To remove a list item, click on the remove button located on the right of the task description.
+
 
