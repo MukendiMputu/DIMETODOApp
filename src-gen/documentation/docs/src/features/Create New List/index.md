@@ -6,14 +6,8 @@ This feature is about ...
 
 On the dashboard - with no todo list yet - enter a descriptive name for the new list you want to create,
 and press Enter or click the "+List" button.
-
-
 ![EnterListName](./EnterListName.png)
-Descriptive text about this element.
-
-
-
+Creating a new todo list
 ![ListCreated](./ListCreated.png)
-Descriptive text about this element.
-
+A new list with no entry yet has been created.
 

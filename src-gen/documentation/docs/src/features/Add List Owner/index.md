@@ -6,11 +6,7 @@ This feature is about ...
 
 To add a list owner, first select an existing user in the select box,
 then click the "+" button right underneath.
-
-
 ![Addinglistowner](./Addinglistowner.png)
-Descriptive text about this element.
-
+Select an existing user from the dropdown list and click "+".
 Click on the add button located right below the select field.
-
 
