@@ -79,11 +79,11 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Create New List
 			try {
 				// DocNode CreateNewList
-				this.highlightElement("input.form-control[placeholder=\'e.g. Shopping\']"); 
-				this.typeIn("input.form-control[placeholder=\'e.g. Shopping\']", "Shopping");
-				this.takePageScreenshot("Create New List", "EnterListName");
-				this.clickBtn("button[aria-label=\'Add List\']");
-				this.takePageScreenshot("Create New List", "ListCreated");
+				this.highlightElement("input.form-control[placeholder='e.g. Shopping']"); 
+				this.typeIn("input.form-control[placeholder='e.g. Shopping']", "Shopping");
+				this.takePageScreenshot("CreateNewList", "EnterListName");
+				this.clickBtn("button[aria-label='Add List']");
+				this.takePageScreenshot("CreateNewList", "ListCreated");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -94,8 +94,8 @@ class GetSeleniumScreenshots implements Runnable{
 				// DocNode AddListEntry
 				this.highlightElement("input[placeholder=\"e.g. grab some apples\"]"); 
 				this.typeIn("input[placeholder=\"e.g. grab some apples\"]", "return t-shirt");
-				this.takePageScreenshot("Add List Entry", "AddlistEntry");
-				this.clickBtn("button[aria-label=\'Add TODO\']");
+				this.takePageScreenshot("AddListEntry", "AddlistEntry");
+				this.clickBtn("button[aria-label='Add TODO']");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -106,7 +106,7 @@ class GetSeleniumScreenshots implements Runnable{
 				// DocNode AddListOwner
 				this.highlightElement("select.form-control"); 
 				this.select("select.form-control", "Mary Jane");
-				this.takePageScreenshot("Add List Owner", "Addinglistowner");
+				this.takePageScreenshot("AddListOwner", "Addinglistowner");
 				this.clickBtn("button[aria-label=\"Add Owner\"]");
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -116,7 +116,7 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Remove List Owner
 			try {
 				// DocNode RemoveListOwner
-				this.takePageScreenshot("Remove List Owner", "removinglistowner");
+				this.takePageScreenshot("RemoveListOwner", "removinglistowner");
 				this.clickBtn("button[aria-label=\"Remove Owner\"]");
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -127,8 +127,8 @@ class GetSeleniumScreenshots implements Runnable{
 			try {
 				// DocNode DeleteListEntry
 				this.highlightElement("table[id^=table] > tbody > tr"); 
-				this.takePageScreenshot("Delete List Entry", "removinglistentry");
-				this.clickBtn("button[aria-label=\'Delete TODO\']");
+				this.takePageScreenshot("DeleteListEntry", "removinglistentry");
+				this.clickBtn("button[aria-label='Delete TODO']");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -137,9 +137,9 @@ class GetSeleniumScreenshots implements Runnable{
 			// Start of sequence Delete List
 			try {
 				// DocNode DeleteList
-				this.highlightElement("div[aria-label=\"button group\"]"); 
-				this.takePageScreenshot("Delete List", "ListSectionhighlighted_");
-				this.clickBtn("button[aria-label=\'Remove\']");
+				this.highlightElement("div[aria-label='button group']"); 
+				this.takePageScreenshot("DeleteList", "ListSectionhighlighted_");
+				this.clickBtn("button[aria-label='Remove']");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -179,7 +179,12 @@ class GetSeleniumScreenshots implements Runnable{
 	public void highlightElement(String selector)
 	{
 		JavascriptExecutor jsExec = (JavascriptExecutor)GetSeleniumScreenshots.firefoxDriver;
-		jsExec.executeScript("arguments[0].setAttribute('style','border: 2px solid red;');", findPageElement(selector));
+		jsExec.executeScript("arguments[0].setAttribute('style','border: 4px solid red;');", findPageElement(selector));
+	}
+	public void undoHighlightElement(String selector)
+	{
+		JavascriptExecutor jsExec = (JavascriptExecutor)GetSeleniumScreenshots.firefoxDriver;
+		jsExec.executeScript("arguments[0].setAttribute('style','border: 4px solid red;');", findPageElement(selector));
 	}
 	public Boolean typeIn(String selector, String contentText)
 	{

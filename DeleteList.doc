@@ -23,7 +23,7 @@ DocGraphModel _5BaiQSlvEeyVOqAhuyE3dg {
   Div _LqlPsS34Eeywp9dqXWnVHg at 270,236 size 60,60 {
   	highlighted true
   	documentation "A list is represented "
-  	selector "div[aria-label=\"button group\"]"
+  	selector "div[aria-label='button group']"
   	-Transition-> _W9iKoS34Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id __ucYYS34Eeywp9dqXWnVHg
   	}

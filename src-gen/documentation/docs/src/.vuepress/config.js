@@ -35,7 +35,17 @@ module.exports = {
     nav: [
       {
         text: 'Features',
-        link: '/features/',
+        prefix: '/features/',
+        icon: "info",
+        items: [
+          { text: "Login", link: "Login/" },
+          { text: "Create New List", link: "CreateNewList/" },
+          { text: "Add List Entry", link: "AddListEntry/" },
+          { text: "Add List Owner", link: "AddListOwner/" },
+          { text: "Remove List Owner", link: "RemoveListOwner/" },
+          { text: "Delete List Entry", link: "DeleteListEntry/" },
+          { text: "Delete List", link: "DeleteList/" }
+        ],
       },
       {
         text: 'Cinco SCCE',
@@ -49,13 +59,13 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'Create New List',
-            'Add List Entry',
-            'Add List Owner',
-            'Remove List Owner',
-            'Delete List Entry',
-            'Delete List',
-            'Login'
+            'Login/',
+            'CreateNewList/',
+            'AddListEntry/',
+            'AddListOwner/',
+            'RemoveListOwner/',
+            'DeleteListEntry/',
+            'DeleteList/'
           ]
         }
       ],
