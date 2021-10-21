@@ -1,6 +1,6 @@
 # Create New List
 
-This feature is about ...
+This feature is about creating a new todo list. After loging in you will get to the user dashboard where you manage you lists.
 
 ## CreateNewList
 

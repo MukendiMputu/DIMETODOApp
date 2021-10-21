@@ -1,5 +1,6 @@
 DocGraphModel _l6Wx0SlvEeyVOqAhuyE3dg {
   modelName "AddListOwner"
+  documenation "Lorem ipsum dolor et si met."
   Timer _Ks7s8S3-Eeywp9dqXWnVHg at 360,210 size 32,32 {
   	condition presenceOfElementLocated
   	cssSelector "table[class=\"table table-striped table-hover table-condensed\"] > tbody > tr"
@@ -22,8 +23,8 @@ DocGraphModel _l6Wx0SlvEeyVOqAhuyE3dg {
   Button _Ks-wQy3-Eeywp9dqXWnVHg at 520,209 size 102,34 {
   	content "Add"
   	highlighted false
-  	selector "form[id*=\"form\"] > button[aria-label=\"Add Owner\"][class=\"btn btn-success\"]"
   	documentation "Click on the add button located right below the select field."
+  	selector "button[aria-label=\"Add Owner\"]"
   	-Transition-> _Ks-JMS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _HxC0gS4HEeyVW9L7egqzag
   	}
@@ -38,14 +39,14 @@ DocGraphModel _l6Wx0SlvEeyVOqAhuyE3dg {
   SelectBox _v4ZMEC4AEeywp9dqXWnVHg at 200,205 size 90,40 {
   	option "Mary Jane"
   	highlighted true
-  	selector "div.col-sm-12 > form > div.form-group >select.form-control"
   	documentation "To add a list owner, first select an existing user in the select box,\nthen click the \"+\" button right underneath."
+  	selector "select.form-control"
   	-Transition-> _Ks7s8S3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _TpFBMS4BEeywp9dqXWnVHg
   	}
   }
   
-  Comment _nDvV0TBAEey2C7DhOGitzQ at 410,280 size 100,40 {
+  Comment _nDvV0TBAEey2C7DhOGitzQ at 410,280 size 283,40 {
   	content "Select an existing user from the dropdown list and click \"+\"."
   	-Anchor-> _Ks87Ey3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _y9bgoTBAEey2C7DhOGitzQ

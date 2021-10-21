@@ -59,76 +59,6 @@ class GetSeleniumScreenshots implements Runnable{
 		// For every feature container in the MGL generate a sequence of methods
 		this.openBrowser();
 		{
-			// Start of sequence Create New List
-			try {
-				// DocNode CreateNewList
-				this.highlightElement("input[class=\'form-control\']"); 
-				this.typeIn("input[class=\'form-control\']", "Shopping");
-				this.takePageScreenshot("Create New List", "EnterListName");
-				this.clickBtn("#form424309088 > button");
-				this.takePageScreenshot("Create New List", "ListCreated");
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		{
-			// Start of sequence Add List Entry
-			try {
-				// DocNode AddListEntry
-				this.highlightElement("/html/body/app/routable-aycj5qmwmeewzvvvwxpyu8a-process/root-home-aycj5qmwmeewzvvvwxpyu8a-process/home-aycj5qmwmeewzvvvwxpyu8a-process/home-tag/div/div/div/dime-panel[1]/div/div[2]/manageentries-tag/div[4]/div/addtodo-tag/div/div/form-_vof6spvueewwodzolky4iq-addtodo/form/div/input"); 
-				this.typeIn("/html/body/app/routable-aycj5qmwmeewzvvvwxpyu8a-process/root-home-aycj5qmwmeewzvvvwxpyu8a-process/home-aycj5qmwmeewzvvvwxpyu8a-process/home-tag/div/div/div/dime-panel[1]/div/div[2]/manageentries-tag/div[4]/div/addtodo-tag/div/div/form-_vof6spvueewwodzolky4iq-addtodo/form/div/input", "return t-shirt");
-				this.takePageScreenshot("Add List Entry", "AddlistEntry");
-				this.clickBtn("form[style~=\"margin-bottom: 15px;\" > button[type=submit]");
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		{
-			// Start of sequence Add List Owner
-			try {
-				// DocNode AddListOwner
-				this.highlightElement("div.col-sm-12 > form > div.form-group >select.form-control"); 
-				this.select("div.col-sm-12 > form > div.form-group >select.form-control", "Mary Jane");
-				this.takePageScreenshot("Add List Owner", "Addinglistowner");
-				this.clickBtn("form[id*=\"form\"] > button[aria-label=\"Add Owner\"][class=\"btn btn-success\"]");
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		{
-			// Start of sequence Remove List Owner
-			try {
-				// DocNode RemoveListOwner
-				this.highlightElement("table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr:nth-child(2) "); 
-				this.takePageScreenshot("Remove List Owner", "removinglistowner");
-				this.clickBtn("table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label=\"Remove Owner\"]");
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		{
-			// Start of sequence Delete List Entry
-			try {
-				// DocNode DeleteListEntry
-				this.highlightElement("table[class=\"table table-striped table-hover table-condensed\"] > tbody > tr"); 
-				this.takePageScreenshot("Delete List Entry", "removinglistentry");
-				this.clickBtn("table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label=\"Delete TODO\"]");
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		{
-			// Start of sequence Delete List
-			try {
-				// DocNode DeleteList
-				this.highlightElement("body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel:nth-child(2) > div"); 
-				this.takePageScreenshot("Delete List", "ListSectionhighlighted_");
-				this.clickBtn("body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel:nth-child(2) > div > div.panel-body > div > div > div > div > button");
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
-		{
 			// Start of sequence Login
 			try {
 				// DocNode UserLogin
@@ -141,6 +71,75 @@ class GetSeleniumScreenshots implements Runnable{
 				this.highlightElement("body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button"); 
 				this.clickBtn("body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button");
 				this.takePageScreenshot("Login", "UserDashboard");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		{
+			// Start of sequence Create New List
+			try {
+				// DocNode CreateNewList
+				this.highlightElement("input.form-control[placeholder=\'e.g. Shopping\']"); 
+				this.typeIn("input.form-control[placeholder=\'e.g. Shopping\']", "Shopping");
+				this.takePageScreenshot("Create New List", "EnterListName");
+				this.clickBtn("button[aria-label=\'Add List\']");
+				this.takePageScreenshot("Create New List", "ListCreated");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		{
+			// Start of sequence Add List Entry
+			try {
+				// DocNode AddListEntry
+				this.highlightElement("input[placeholder=\"e.g. grab some apples\"]"); 
+				this.typeIn("input[placeholder=\"e.g. grab some apples\"]", "return t-shirt");
+				this.takePageScreenshot("Add List Entry", "AddlistEntry");
+				this.clickBtn("button[aria-label=\'Add TODO\']");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		{
+			// Start of sequence Add List Owner
+			try {
+				// DocNode AddListOwner
+				this.highlightElement("select.form-control"); 
+				this.select("select.form-control", "Mary Jane");
+				this.takePageScreenshot("Add List Owner", "Addinglistowner");
+				this.clickBtn("button[aria-label=\"Add Owner\"]");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		{
+			// Start of sequence Remove List Owner
+			try {
+				// DocNode RemoveListOwner
+				this.takePageScreenshot("Remove List Owner", "removinglistowner");
+				this.clickBtn("button[aria-label=\"Remove Owner\"]");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		{
+			// Start of sequence Delete List Entry
+			try {
+				// DocNode DeleteListEntry
+				this.highlightElement("table[id^=table] > tbody > tr"); 
+				this.takePageScreenshot("Delete List Entry", "removinglistentry");
+				this.clickBtn("button[aria-label=\'Delete TODO\']");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		{
+			// Start of sequence Delete List
+			try {
+				// DocNode DeleteList
+				this.highlightElement("div[aria-label=\"button group\"]"); 
+				this.takePageScreenshot("Delete List", "ListSectionhighlighted_");
+				this.clickBtn("button[aria-label=\'Remove\']");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

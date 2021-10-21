@@ -1,5 +1,6 @@
 DocGraphModel _5BaiQSlvEeyVOqAhuyE3dg {
   modelName "DeleteList"
+  documenation "Lorem ipsum dolor et si met."
   StartNode _XhwHcS33Eeywp9dqXWnVHg at 80,250 size 96,32 {
   	-Transition-> _LqlPsS34Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _Ua9gMS34Eeywp9dqXWnVHg
@@ -12,8 +13,8 @@ DocGraphModel _5BaiQSlvEeyVOqAhuyE3dg {
   Button _G8iMMS34Eeywp9dqXWnVHg at 520,249 size 102,34 {
   	content "Remove List"
   	highlighted false
-  	selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel:nth-child(2) > div > div.panel-body > div > div > div > div > button"
   	documentation ""
+  	selector "button[aria-label='Remove']"
   	-Transition-> _X0I38S33Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _ANBx0S35Eeywp9dqXWnVHg
   	}
@@ -21,8 +22,8 @@ DocGraphModel _5BaiQSlvEeyVOqAhuyE3dg {
   
   Div _LqlPsS34Eeywp9dqXWnVHg at 270,236 size 60,60 {
   	highlighted true
-  	selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel:nth-child(2) > div"
   	documentation "A list is represented "
+  	selector "div[aria-label=\"button group\"]"
   	-Transition-> _W9iKoS34Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id __ucYYS34Eeywp9dqXWnVHg
   	}
@@ -36,7 +37,7 @@ DocGraphModel _5BaiQSlvEeyVOqAhuyE3dg {
   	}
   }
   
-  Comment _De0SsS35Eeywp9dqXWnVHg at 175,320 size 100,40 {
+  Comment _De0SsS35Eeywp9dqXWnVHg at 175,320 size 551,40 {
   	content "To remove a list element, click the \"Remove List\" button located in the top right-hand corner of the target list section."
   	-Anchor-> _W9iKoS34Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _EGxqkS35Eeywp9dqXWnVHg

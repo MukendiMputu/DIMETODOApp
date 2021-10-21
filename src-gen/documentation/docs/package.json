@@ -1,7 +1,7 @@
 {
   "name": "documentation",
   "version": "0.0.1",
-  "description": "end-user documentation project",
+  "description": "End-user Documentation",
   "main": "index.js",
   "authors": {
     "name": "CINCO SCCE",

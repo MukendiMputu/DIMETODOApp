@@ -1,5 +1,6 @@
 DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   modelName "UserLogin"
+  documenation "Lorem ipsum dolor et si met."
   StartNode _dXvqsS1YEeydE5SriVPFAA at 50,260 size 96,32 {
   	-Transition-> _ePxe4C1YEeydE5SriVPFAA  decorate "" at (0,0) {
   		id _gcXSQC1YEeydE5SriVPFAA
@@ -10,6 +11,7 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   }
   
   Navigation _ePxe4C1YEeydE5SriVPFAA at 200,260 size 100,32 {
+  	documentation "Descriptive text about this element."
   	link "http://localhost:8080"
   	-Transition-> _86k4sC3vEeyl0oUZox1xpw  decorate "" at (0,0) {
   		id _g6FJAC1YEeydE5SriVPFAA
@@ -32,16 +34,17 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   }
   
   SectionNode _N9QdMC1ZEeydE5SriVPFAA at 510,180 size 300,223 {
+  	documentation "Descriptive text about this element."
   	title "Enter User Credentials"
   	Form _XlzEwC1ZEeydE5SriVPFAA at 30,42 size 180,109 {
   		highlighted false
+  		documentation "After you've entered the correct username and password, click the Login button to access the application dashboard."
   		selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form"
-  		documentation "After you've entered the correct username and password, click the Login button to acces the application dashboard."
   		Input _njIOsC1aEeydE5SriVPFAA at 30,10 size 100,32 {
   			content "peter"
   			highlighted true
-  			selector "#username"
   			documentation ""
+  			selector "#username"
   			-Transition-> _n_QKAS1aEeydE5SriVPFAA  decorate "" at (0,0) {
   				id _IBuoAS1bEeydE5SriVPFAA
   			}
@@ -50,8 +53,8 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   		Input _n_QKAS1aEeydE5SriVPFAA at 30,58 size 100,32 {
   			content "pwd"
   			highlighted true
-  			selector "#password"
   			documentation ""
+  			selector "#password"
   		}
   		-Transition-> _YThtcC1ZEeydE5SriVPFAA via (629,376) decorate "" at (0,0) {
   			id _Ibpj4S1bEeydE5SriVPFAA
@@ -61,8 +64,8 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   	Button _YThtcC1ZEeydE5SriVPFAA at 190,182 size 90,30 {
   		content "Login"
   		highlighted true
-  		selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button"
   		documentation ""
+  		selector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button"
   		-Transition-> _DGqLAS3xEeyhPrHBltt7Ag  decorate "" at (0,0) {
   			id _DmWB0C1bEeydE5SriVPFAA
   		}

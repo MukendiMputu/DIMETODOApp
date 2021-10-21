@@ -1,5 +1,6 @@
 DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   modelName "RemoveListOwner"
+  documenation "Lorem ipsum dolor et si met."
   Timer _LN8vUS3-Eeywp9dqXWnVHg at 360,270 size 32,32 {
   	condition presenceOfElementLocated
   	cssSelector "table[class=\"table table-striped table-hover table-condensed\"] > tbody > tr"
@@ -22,8 +23,8 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   Button _LN_LkS3-Eeywp9dqXWnVHg at 540,270 size 102,34 {
   	content "Remove"
   	highlighted false
-  	selector "table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr > td:nth-child(2) > div > div > button[aria-label=\"Remove Owner\"]"
   	documentation "To remove a list owner, click on the remove button located on the right-hand side of the owner lastname."
+  	selector "button[aria-label=\"Remove Owner\"]"
   	-Transition-> _LN99ci3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _LOAZsS3-Eeywp9dqXWnVHg
   	}
@@ -31,9 +32,9 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   
   TableRow _LOBAwS3-Eeywp9dqXWnVHg at 200,266 size 90,40 {
   	content "nb"
-  	highlighted true
-  	selector "table[class=\"table table-striped table-hover table-condensed\"]  > tbody > tr:nth-child(2) "
+  	highlighted false
   	documentation "A list owner is represented in a single row, showing firstname, lastname and the action that can be perform on this specific list owner."
+  	selector "table[id^=table] > tbody > tr"
   	-Transition-> _LN8vUS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _LOBn0S3-Eeywp9dqXWnVHg
   	}
@@ -45,7 +46,7 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   	}
   }
   
-  Comment _FWI9UDBBEey2C7DhOGitzQ at 490,370 size 100,40 {
+  Comment _FWI9UDBBEey2C7DhOGitzQ at 490,370 size 389,40 {
   	content "To remove a list owner click on the red button on the right-hand side of the name."
   	-Anchor-> _LN9WYy3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _F2zaYTBBEey2C7DhOGitzQ

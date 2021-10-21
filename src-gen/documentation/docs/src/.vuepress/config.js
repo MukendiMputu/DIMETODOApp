@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'DIMETODOApp Wiki',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,7 +16,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#14c4bb' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -49,7 +49,13 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'Create New List',
+            'Add List Entry',
+            'Add List Owner',
+            'Remove List Owner',
+            'Delete List Entry',
+            'Delete List',
+            'Login'
           ]
         }
       ],

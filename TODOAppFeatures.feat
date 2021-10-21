@@ -1,150 +1,171 @@
 FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   modelName "TODO App Features"
-  documenation "Lorem ipsum dolor et si met."
-  FeatureContainer _MvEYoClwEeyVOqAhuyE3dg at 250,110 size 300,205 {
-  	documentation "This feature is about ..."
+  documenation "The TODO app is a simple web application for organizing your todos. It is fully generated using (DIME)[https://scce.gitlab.io/dime/], a programming less environment to easily design, accomplish and contribute your ideas for a Web Application."
+  FeatureContainer _MvEYoClwEeyVOqAhuyE3dg at 380,100 size 270,205 {
+  	documentation "This feature is about creating a new todo list. After loging in you will get to the user dashboard where you manage you lists."
   	title "Create New List"
-  	Start _uGWtcSlwEeyVOqAhuyE3dg at 60,40 size 96,32 {
-  		-Edge-> _296kASlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _otJ6YCsAEey3btEC6p-NLw
-  		}
-  	}
-  	
-  	End _xlcDcSlwEeyVOqAhuyE3dg at 180,140 size 96,32 {
-  	}
-  	
-  	DocNode _296kASlwEeyVOqAhuyE3dg at 81,85 size 100,50 {
+  	DocNode _296kASlwEeyVOqAhuyE3dg at 80,80 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_hic9cClvEeyVOqAhuyE3dg"
-  		-Edge-> _xlcDcSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _qfQxMSsAEey3btEC6p-NLw
+  		-Edge-> _nZ-K8TH1EeyxDs79MYjjDw  decorate "" at (0,0) {
+  			id _r8X_IDH1EeyxDs79MYjjDw
   		}
+  	}
+  	
+ 	Start _lKMgsDH1EeyxDs79MYjjDw at 114,20 size 32,32 {
+  		-Edge-> _296kASlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _rqwqsTH1EeyxDs79MYjjDw
+  		}
+  	}
+  	
+  	Stop _nZ-K8TH1EeyxDs79MYjjDw at 114,155 size 32,32 {
+  	}
+  	-Edge-> _NR4KwSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  		id _QYNKYTHzEey6L71cYpPFpg
   	}
   }
   
-  FeatureContainer _NR4KwSlwEeyVOqAhuyE3dg at 560,110 size 300,205 {
+  FeatureContainer _NR4KwSlwEeyVOqAhuyE3dg at 679,100 size 300,205 {
   	documentation "This feature is about ..."
   	title "Add List Entry"
-  	Start _vXe-ISlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
-  		-Edge-> _01e34SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _yIfzcSsAEey3btEC6p-NLw
-  		}
-  	}
-  	
-  	End _x-eOgClwEeyVOqAhuyE3dg at 200,130 size 96,32 {
-  	}
-  	
-  	DocNode _01e34SlwEeyVOqAhuyE3dg at 105,80 size 100,50 {
+  	DocNode _01e34SlwEeyVOqAhuyE3dg at 116,80 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_kIGxESlvEeyVOqAhuyE3dg"
-  		-Edge-> _x-eOgClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _xyP2oSsAEey3btEC6p-NLw
+  		-Edge-> _n5n7YTH1EeyxDs79MYjjDw  decorate "" at (0,0) {
+  			id _sj2O0DH1EeyxDs79MYjjDw
   		}
+  	}
+  	
+  	Start _lfYGgTH1EeyxDs79MYjjDw at 150,30 size 32,32 {
+  		-Edge-> _01e34SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _sSfZETH1EeyxDs79MYjjDw
+  		}
+  	}
+  	
+  	Stop _n5n7YTH1EeyxDs79MYjjDw at 150,150 size 32,32 {
+  	}
+  	-Edge-> _OTjDIClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  		id _Q0EnATHzEey6L71cYpPFpg
   	}
   }
   
-  FeatureContainer _OTjDIClwEeyVOqAhuyE3dg at 870,110 size 300,205 {
+  FeatureContainer _OTjDIClwEeyVOqAhuyE3dg at 1000,100 size 300,205 {
   	documentation "This feature is about ..."
   	title "Add List Owner"
-  	Start _vyYKYSlwEeyVOqAhuyE3dg at 20,30 size 96,32 {
-  		-Edge-> _2NcwYSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _yr8ewCsAEey3btEC6p-NLw
-  		}
-  	}
-  	
-  	End _yS6NcClwEeyVOqAhuyE3dg at 200,130 size 96,32 {
-  	}
-  	
   	DocNode _2NcwYSlwEeyVOqAhuyE3dg at 106,79 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_l6Wx0SlvEeyVOqAhuyE3dg"
-  		-Edge-> _yS6NcClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _zDmJwSsAEey3btEC6p-NLw
+  		-Edge-> _oMB6ATH1EeyxDs79MYjjDw  decorate "" at (0,0) {
+  			id _tOHT0TH1EeyxDs79MYjjDw
   		}
+  	}
+  	
+  	Start _lzXZgTH1EeyxDs79MYjjDw at 130,30 size 32,32 {
+  		-Edge-> _2NcwYSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _s48VETH1EeyxDs79MYjjDw
+  		}
+  	}
+  	
+  	Stop _oMB6ATH1EeyxDs79MYjjDw at 150,160 size 32,32 {
+  	}
+  	-Edge-> _O_5y0SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  		id _RWcUQTHzEey6L71cYpPFpg
   	}
   }
   
-  FeatureContainer _O_5y0SlwEeyVOqAhuyE3dg at 870,340 size 300,197 {
+  FeatureContainer _O_5y0SlwEeyVOqAhuyE3dg at 1000,330 size 300,197 {
   	documentation "This feature is about ..."
   	title "Remove List Owner"
-  	Start _xMIyoSlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
-  		-Edge-> _EMDZRSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _EpKSQSsBEey3btEC6p-NLw
-  		}
-  	}
-  	
-  	End _ynEfkSlwEeyVOqAhuyE3dg at 220,150 size 96,32 {
-  	}
-  	
   	DocNode _EMDZRSlxEeyVOqAhuyE3dg at 90,80 size 111,50 {
   		createScreenshots true
   		libraryComponentUID "_JYkW4SlwEeyVOqAhuyE3dg"
-  		-Edge-> _ynEfkSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _E6EcESsBEey3btEC6p-NLw
+  		-Edge-> _ojEhATH1EeyxDs79MYjjDw  decorate "" at (0,0) {
+  			id _rIayoTH1EeyxDs79MYjjDw
   		}
+  	}
+  	
+  	Stop _ojEhATH1EeyxDs79MYjjDw at 120,150 size 32,32 {
+  	}
+  	
+  	Start _wYUsYTH9EeypBs5Sw6SaWw at 130,30 size 32,32 {
+  		-Edge-> _EMDZRSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _wnxdoTH9EeypBs5Sw6SaWw
+  		}
+  	}
+  	-Edge-> _PYBX4SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  		id _R4ClcTHzEey6L71cYpPFpg
   	}
   }
   
-  FeatureContainer _PYBX4SlwEeyVOqAhuyE3dg at 560,340 size 300,197 {
+  FeatureContainer _PYBX4SlwEeyVOqAhuyE3dg at 679,330 size 300,197 {
   	documentation "This feature is about ..."
   	title "Delete List Entry"
-  	Start _wyu0ISlwEeyVOqAhuyE3dg at 20,40 size 96,32 {
-  		-Edge-> _DXjaMSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _EE0PESsBEey3btEC6p-NLw
-  		}
-  	}
-  	
-  	End _zjxYYSlwEeyVOqAhuyE3dg at 180,160 size 96,32 {
-  	}
-  	
   	DocNode _DXjaMSlxEeyVOqAhuyE3dg at 81,90 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_AbVWIClwEeyVOqAhuyE3dg"
-  		-Edge-> _zjxYYSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _EXeFUSsBEey3btEC6p-NLw
+  		-Edge-> _pAbLYTH1EeyxDs79MYjjDw  decorate "" at (0,0) {
+  			id _qjm1YTH1EeyxDs79MYjjDw
   		}
+  	}
+  	
+  	Start _mZ5OATH1EeyxDs79MYjjDw at 120,40 size 32,32 {
+  		-Edge-> _DXjaMSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _qT8owDH1EeyxDs79MYjjDw
+  		}
+  	}
+  	
+  	Stop _pAbLYTH1EeyxDs79MYjjDw at 120,150 size 32,32 {
+  	}
+  	-Edge-> _Pu608SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  		id _SRcj8THzEey6L71cYpPFpg
   	}
   }
   
-  FeatureContainer _Pu608SlwEeyVOqAhuyE3dg at 250,340 size 300,197 {
+  FeatureContainer _Pu608SlwEeyVOqAhuyE3dg at 380,330 size 270,197 {
   	documentation "This feature is about ..."
   	title "Delete List"
-  	Start _wYOCYSlwEeyVOqAhuyE3dg at 10,30 size 96,32 {
-  		-Edge-> _3Z4HQSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _DbAdESsBEey3btEC6p-NLw
-  		}
-  	}
-  	
-  	End _z4kjsClwEeyVOqAhuyE3dg at 190,150 size 96,32 {
-  	}
-  	
   	DocNode _3Z4HQSlwEeyVOqAhuyE3dg at 80,88 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_5BaiQSlvEeyVOqAhuyE3dg"
-  		-Edge-> _z4kjsClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _D03ukSsBEey3btEC6p-NLw
+  		-Edge-> _pZAqgTH1EeyxDs79MYjjDw  decorate "" at (0,0) {
+  			id _p9dbYTH1EeyxDs79MYjjDw
   		}
+  	}
+  	
+  	Start _mDp4QTH1EeyxDs79MYjjDw at 130,30 size 32,32 {
+  		-Edge-> _3Z4HQSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _pvQAQDH1EeyxDs79MYjjDw
+  		}
+  	}
+  	
+  	Stop _pZAqgTH1EeyxDs79MYjjDw at 130,150 size 32,32 {
+  	}
+  	-Edge-> _e-cwIDH1EeyxDs79MYjjDw  decorate "" at (0,0) {
+  		id _fiOLkTH1EeyxDs79MYjjDw
   	}
   }
   
-  FeatureContainer _Q_P0YSlwEeyVOqAhuyE3dg at 30,110 size 201,205 {
+  FeatureContainer _Q_P0YSlwEeyVOqAhuyE3dg at 160,100 size 201,205 {
   	documentation "The landing page of the TODO App is the login page. To be able to access the dashboard, provide the user credentials of an existing user."
   	title "Login"
-  	Start _TWSkQClwEeyVOqAhuyE3dg at 50,20 size 96,32 {
-  		-Edge-> _UN3sgSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _KpMJwCr7Eey3btEC6p-NLw
-  		}
-  	}
-  	
-  	End _Ts34QSlwEeyVOqAhuyE3dg at 40,150 size 96,32 {
-  	}
-  	
   	DocNode _UN3sgSlwEeyVOqAhuyE3dg at 48,80 size 100,50 {
   		createScreenshots true
   		libraryComponentUID "_fuP04ClvEeyVOqAhuyE3dg"
-  		-Edge-> _Ts34QSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  			id _K6hKUSr7Eey3btEC6p-NLw
+  		-Edge-> _ixu0gTH1EeyxDs79MYjjDw  decorate "" at (0,0) {
+  			id _jWd5QTH1EeyxDs79MYjjDw
   		}
+  	}
+  	
+  	Start _iE_DQTH1EeyxDs79MYjjDw at 90,30 size 32,32 {
+  		-Edge-> _UN3sgSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  			id _jHoMADH1EeyxDs79MYjjDw
+  		}
+  	}
+  	
+  	Stop _ixu0gTH1EeyxDs79MYjjDw at 80,160 size 32,32 {
+  	}
+  	-Edge-> _MvEYoClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  		id _Pvs_8THzEey6L71cYpPFpg
   	}
   }
   
@@ -154,5 +175,14 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   		path "/home/mukendi/opt/WebDriver/bin/geckodriver"
   		name FIREFOX
   	}
+  }
+  
+  Begin _ZUznEDH1EeyxDs79MYjjDw at 10,187 size 96,32 {
+  	-Edge-> _Q_P0YSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
+  		id _dtTRUTH1EeyxDs79MYjjDw
+  	}
+  }
+  
+  End _e-cwIDH1EeyxDs79MYjjDw at 213,413 size 96,32 {
   }
 }

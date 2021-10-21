@@ -1,5 +1,6 @@
 DocGraphModel _kIGxESlvEeyVOqAhuyE3dg {
   modelName "AddListEntry"
+  documenation "Lorem ipsum dolor et si met."
   StartNode _ANnVwC37Eeywp9dqXWnVHg at 140,250 size 96,32 {
   	-Transition-> _HCgxAS37Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _fX0H8S37Eeywp9dqXWnVHg
@@ -12,8 +13,8 @@ DocGraphModel _kIGxESlvEeyVOqAhuyE3dg {
   Input _HCgxAS37Eeywp9dqXWnVHg at 300,250 size 102,34 {
   	content "return t-shirt"
   	highlighted true
-  	selector "/html/body/app/routable-aycj5qmwmeewzvvvwxpyu8a-process/root-home-aycj5qmwmeewzvvvwxpyu8a-process/home-aycj5qmwmeewzvvvwxpyu8a-process/home-tag/div/div/div/dime-panel[1]/div/div[2]/manageentries-tag/div[4]/div/addtodo-tag/div/div/form-_vof6spvueewwodzolky4iq-addtodo/form/div/input"
   	documentation "To add a list entry, first tip in the description of task in the input field,\nthen click the \"+ TODO\" button bellow or just press Enter on your keyboard."
+  	selector "input[placeholder=\"e.g. grab some apples\"]"
   	-Transition-> _hZjWMS37Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _i_D7cS37Eeywp9dqXWnVHg
   	}
@@ -38,14 +39,14 @@ DocGraphModel _kIGxESlvEeyVOqAhuyE3dg {
   Button _iQ508S37Eeywp9dqXWnVHg at 690,250 size 102,34 {
   	content "+TODO"
   	highlighted false
-  	selector "form[style~=\"margin-bottom: 15px;\" > button[type=submit]"
   	documentation ""
+  	selector "button[aria-label='Add TODO']"
   	-Transition-> _Ajmz4S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _ioP98S37Eeywp9dqXWnVHg
   	}
   }
   
-  Comment _lgzfcC37Eeywp9dqXWnVHg at 540,340 size 100,40 {
+  Comment _lgzfcC37Eeywp9dqXWnVHg at 540,340 size 103,40 {
   	content "Creating a new task."
   	-Anchor-> _hsHF0S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _lwgIUS37Eeywp9dqXWnVHg
