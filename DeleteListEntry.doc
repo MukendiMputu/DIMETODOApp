@@ -2,7 +2,7 @@ DocGraphModel _AbVWIClwEeyVOqAhuyE3dg {
   modelName "DeleteListEntry"
   documenation "Lorem ipsum dolor et si met."
   StartNode _VOxJcS39Eeywp9dqXWnVHg at 40,270 size 96,32 {
-  	-Transition-> _WrJn4C39Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  	-Transition-> _XXGkQTRmEeyGupkDgYQozQ  decorate "" at (0,0) {
   		id _xb1cIS39Eeywp9dqXWnVHg
   	}
   }
@@ -50,6 +50,14 @@ DocGraphModel _AbVWIClwEeyVOqAhuyE3dg {
   	content "The red button on the right-hand side removes the corresponding list entry."
   	-Anchor-> _ysS-cS39Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _AzU5cDBBEey2C7DhOGitzQ
+  	}
+  }
+  
+  SubDoc _XXGkQTRmEeyGupkDgYQozQ at 216,181 size 90,40 {
+  	createScreenshots false
+  	libraryComponentUID "_kIGxESlvEeyVOqAhuyE3dg"
+  	-Transition-> _WrJn4C39Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _YFNAYTRmEeyGupkDgYQozQ
   	}
   }
 }

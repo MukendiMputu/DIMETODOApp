@@ -4,7 +4,7 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   Timer _LN8vUS3-Eeywp9dqXWnVHg at 360,270 size 32,32 {
   	condition presenceOfElementLocated
   	cssSelector "table[class=\"table table-striped table-hover table-condensed\"] > tbody > tr"
-  	-Transition-> _LN9WYy3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  	-Transition-> _oapQsDRZEey-MujjSN0kBQ  decorate "" at (0,0) {
   		id _LN9WYS3-Eeywp9dqXWnVHg
   	}
   }
@@ -41,15 +41,30 @@ DocGraphModel _JYkW4SlwEeyVOqAhuyE3dg {
   }
   
   StartNode _LOBn1y3-Eeywp9dqXWnVHg at 40,270 size 96,32 {
-  	-Transition-> _LOBAwS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  	-Transition-> _aqK3gTRmEeyGupkDgYQozQ  decorate "" at (0,0) {
   		id _LOBn1S3-Eeywp9dqXWnVHg
   	}
   }
   
-  Comment _FWI9UDBBEey2C7DhOGitzQ at 490,370 size 389,40 {
+  Comment _FWI9UDBBEey2C7DhOGitzQ at 190,370 size 389,40 {
   	content "To remove a list owner click on the red button on the right-hand side of the name."
   	-Anchor-> _LN9WYy3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _F2zaYTBBEey2C7DhOGitzQ
+  	}
+  }
+  
+  Highlight _oapQsDRZEey-MujjSN0kBQ at 330,180 size 232,32 {
+  	target _LN_LkS3-Eeywp9dqXWnVHg
+  	-Transition-> _LN9WYy3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _isQFsTcmEeyAxpiUkB1esQ
+  	}
+  }
+  
+  SubDoc _aqK3gTRmEeyGupkDgYQozQ at 140,200 size 90,40 {
+  	createScreenshots false
+  	libraryComponentUID "_l6Wx0SlvEeyVOqAhuyE3dg"
+  	-Transition-> _LOBAwS3-Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _cYjE4DRmEeyGupkDgYQozQ
   	}
   }
 }

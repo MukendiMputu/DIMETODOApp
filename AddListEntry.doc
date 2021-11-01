@@ -1,42 +1,42 @@
 DocGraphModel _kIGxESlvEeyVOqAhuyE3dg {
   modelName "AddListEntry"
   documenation "Lorem ipsum dolor et si met."
-  StartNode _ANnVwC37Eeywp9dqXWnVHg at 140,250 size 96,32 {
-  	-Transition-> _HCgxAS37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  StartNode _ANnVwC37Eeywp9dqXWnVHg at 20,60 size 96,32 {
+  	-Transition-> _N8HQgTRmEeyGupkDgYQozQ via (68,177) decorate "" at (0,0) {
   		id _fX0H8S37Eeywp9dqXWnVHg
   	}
   }
   
-  EndNode _Ajmz4S37Eeywp9dqXWnVHg at 870,251 size 96,32 {
+  EndNode _Ajmz4S37Eeywp9dqXWnVHg at 1100,162 size 96,32 {
   }
   
-  Input _HCgxAS37Eeywp9dqXWnVHg at 300,250 size 102,34 {
+  Input _HCgxAS37Eeywp9dqXWnVHg at 720,161 size 102,34 {
   	content "return t-shirt"
-  	highlighted true
+  	highlighted false
   	documentation "To add a list entry, first tip in the description of task in the input field,\nthen click the \"+ TODO\" button bellow or just press Enter on your keyboard."
   	selector "input[placeholder=\"e.g. grab some apples\"]"
-  	-Transition-> _hZjWMS37Eeywp9dqXWnVHg  decorate "" at (0,0) {
-  		id _i_D7cS37Eeywp9dqXWnVHg
+  	-Transition-> _hsHF0S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _yXpysDeWEeyccMrL8uk_vg
   	}
   }
   
-  Timer _hZjWMS37Eeywp9dqXWnVHg at 480,251 size 32,32 {
+  Timer _hZjWMS37Eeywp9dqXWnVHg at 290,162 size 32,32 {
   	condition presenceOfElementLocated
-  	cssSelector ""
-  	-Transition-> _hsHF0S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  	cssSelector "input[placeholder=\"e.g. grab some apples\"]"
+  	-Transition-> _fHbfMTeWEeyccMrL8uk_vg  decorate "" at (0,0) {
   		id _jK9pcS37Eeywp9dqXWnVHg
   	}
   }
   
-  Screenshot _hsHF0S37Eeywp9dqXWnVHg at 570,250 size 32,32 {
+  Screenshot _hsHF0S37Eeywp9dqXWnVHg at 880,162 size 32,32 {
   	pictureName "Add list Entry"
   	description _lgzfcC37Eeywp9dqXWnVHg
   	-Transition-> _iQ508S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
-  		id _jXUqcS37Eeywp9dqXWnVHg
+  		id _2F-ekTeWEeyccMrL8uk_vg
   	}
   }
   
-  Button _iQ508S37Eeywp9dqXWnVHg at 690,250 size 102,34 {
+  Button _iQ508S37Eeywp9dqXWnVHg at 950,161 size 102,34 {
   	content "+TODO"
   	highlighted false
   	documentation ""
@@ -46,10 +46,25 @@ DocGraphModel _kIGxESlvEeyVOqAhuyE3dg {
   	}
   }
   
-  Comment _lgzfcC37Eeywp9dqXWnVHg at 540,340 size 103,40 {
+  Comment _lgzfcC37Eeywp9dqXWnVHg at 844,220 size 103,40 {
   	content "Creating a new task."
   	-Anchor-> _hsHF0S37Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _lwgIUS37Eeywp9dqXWnVHg
+  	}
+  }
+  
+  SubDoc _N8HQgTRmEeyGupkDgYQozQ at 140,158 size 90,40 {
+  	createScreenshots false
+  	libraryComponentUID "_hic9cClvEeyVOqAhuyE3dg"
+  	-Transition-> _hZjWMS37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _O0mXsTRmEeyGupkDgYQozQ
+  	}
+  }
+  
+  Highlight _fHbfMTeWEeyccMrL8uk_vg at 360,162 size 301,32 {
+  	target _HCgxAS37Eeywp9dqXWnVHg
+  	-Transition-> _HCgxAS37Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _h50uUTeWEeyccMrL8uk_vg
   	}
   }
 }

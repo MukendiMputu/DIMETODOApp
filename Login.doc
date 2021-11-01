@@ -1,24 +1,24 @@
 DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   modelName "UserLogin"
   documenation "Lorem ipsum dolor et si met."
-  StartNode _dXvqsS1YEeydE5SriVPFAA at 50,260 size 96,32 {
+  StartNode _dXvqsS1YEeydE5SriVPFAA at 140,260 size 96,32 {
   	-Transition-> _ePxe4C1YEeydE5SriVPFAA  decorate "" at (0,0) {
   		id _gcXSQC1YEeydE5SriVPFAA
   	}
   }
   
-  EndNode _dskrMS1YEeydE5SriVPFAA at 960,360 size 96,32 {
+  EndNode _dskrMS1YEeydE5SriVPFAA at 460,400 size 96,32 {
   }
   
-  Navigation _ePxe4C1YEeydE5SriVPFAA at 200,260 size 100,32 {
-  	documentation "Descriptive text about this element."
+  Navigation _ePxe4C1YEeydE5SriVPFAA at 260,260 size 110,32 {
+  	documentation "To login in go to http://localhost:8080."
   	link "http://localhost:8080"
   	-Transition-> _86k4sC3vEeyl0oUZox1xpw  decorate "" at (0,0) {
   		id _g6FJAC1YEeydE5SriVPFAA
   	}
   }
   
-  Screenshot _ej0cQC1YEeydE5SriVPFAA at 350,260 size 32,32 {
+  Screenshot _ej0cQC1YEeydE5SriVPFAA at 449,260 size 32,32 {
   	pictureName "Application Landing Page"
   	description _ij2jMC1YEeydE5SriVPFAA
   	-Transition-> _XlzEwC1ZEeydE5SriVPFAA  decorate "" at (0,0) {
@@ -26,15 +26,15 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Comment _ij2jMC1YEeydE5SriVPFAA at 40,310 size 441,51 {
-  	content "The application landing page is also the login interface.\nUsername and password are required to access to the dashboard and manage the todo list."
+  Comment _ij2jMC1YEeydE5SriVPFAA at 210,180 size 271,52 {
+  	content "The application landing page is also the login interface.\nUsername and password are required to access to the\ndashboard and manage the todo list."
   	-Anchor-> _ej0cQC1YEeydE5SriVPFAA  decorate "" at (0,0) {
   		id _nPM4AC1YEeydE5SriVPFAA
   	}
   }
   
-  SectionNode _N9QdMC1ZEeydE5SriVPFAA at 510,180 size 300,223 {
-  	documentation "Descriptive text about this element."
+  SectionNode _N9QdMC1ZEeydE5SriVPFAA at 490,175 size 251,202 {
+  	documentation "You will be presented with a login form. Unfortunately, you can not access the application without a  user account.\nIf you don't have one yet, please contact your application admin to provide you with an valid account."
   	title "Enter User Credentials"
   	Form _XlzEwC1ZEeydE5SriVPFAA at 30,42 size 180,109 {
   		highlighted false
@@ -56,12 +56,12 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   			documentation ""
   			selector "#password"
   		}
-  		-Transition-> _YThtcC1ZEeydE5SriVPFAA via (629,376) decorate "" at (0,0) {
+  		-Transition-> _YThtcC1ZEeydE5SriVPFAA via (608,350) decorate "" at (0,0) {
   			id _Ibpj4S1bEeydE5SriVPFAA
   		}
   	}
   	
-  	Button _YThtcC1ZEeydE5SriVPFAA at 190,182 size 90,30 {
+  	Button _YThtcC1ZEeydE5SriVPFAA at 150,160 size 90,30 {
   		content "Login"
   		highlighted true
   		documentation ""
@@ -72,7 +72,7 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Timer _86k4sC3vEeyl0oUZox1xpw at 310,210 size 32,32 {
+  Timer _86k4sC3vEeyl0oUZox1xpw at 390,260 size 32,32 {
   	condition presenceOfElementLocated
   	cssSelector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div"
   	-Transition-> _ej0cQC1YEeydE5SriVPFAA  decorate "" at (0,0) {
@@ -80,7 +80,7 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Timer _DGqLAS3xEeyhPrHBltt7Ag at 830,410 size 32,32 {
+  Timer _DGqLAS3xEeyhPrHBltt7Ag at 670,400 size 32,32 {
   	condition presenceOfElementLocated
   	cssSelector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > login-form > div > div > div > div > form > div.row > div > button"
   	-Transition-> _DuSywS3xEeyhPrHBltt7Ag  decorate "" at (0,0) {
@@ -88,16 +88,16 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Screenshot _DuSywS3xEeyhPrHBltt7Ag at 890,410 size 32,32 {
-  	pictureName "UserDashboard"
+  Screenshot _DuSywS3xEeyhPrHBltt7Ag at 600,400 size 32,32 {
+  	pictureName "Application Landing Page"
   	description _Rc5bUS3yEeywp9dqXWnVHg
   	-Transition-> _dskrMS1YEeydE5SriVPFAA  decorate "" at (0,0) {
   		id _1BTkcS3xEeyhPrHBltt7Ag
   	}
   }
   
-  Comment _Rc5bUS3yEeywp9dqXWnVHg at 900,490 size 186,40 {
-  	content "How to fill in username and password."
+  Comment _Rc5bUS3yEeywp9dqXWnVHg at 480,460 size 171,31 {
+  	content "Fill in username and password."
   	-Anchor-> _DuSywS3xEeyhPrHBltt7Ag  decorate "" at (0,0) {
   		id _VyPq8S3yEeywp9dqXWnVHg
   	}

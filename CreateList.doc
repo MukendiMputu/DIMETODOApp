@@ -1,16 +1,16 @@
 DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   modelName "CreateNewList"
   documenation "Lorem ipsum dolor et si met."
-  StartNode _wfqIwS3yEeywp9dqXWnVHg at 90,250 size 96,32 {
-  	-Transition-> _dWK58S3zEeywp9dqXWnVHg  decorate "" at (0,0) {
-  		id _4WK8kS3zEeywp9dqXWnVHg
+  StartNode _wfqIwS3yEeywp9dqXWnVHg at 60,74 size 96,32 {
+  	-Transition-> _5IjvQTqKEeyxMqiL_MAaPA  decorate "" at (0,0) {
+  		id _anEi4TqKEeyxMqiL_MAaPA
   	}
   }
   
-  EndNode _wzPzIS3yEeywp9dqXWnVHg at 910,250 size 96,32 {
+  EndNode _wzPzIS3yEeywp9dqXWnVHg at 480,141 size 96,32 {
   }
   
-  Button _6Fs18C3yEeywp9dqXWnVHg at 530,249 size 102,34 {
+  Button _6Fs18C3yEeywp9dqXWnVHg at 810,140 size 102,34 {
   	content "+List"
   	highlighted false
   	documentation ""
@@ -20,9 +20,9 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Input _dWK58S3zEeywp9dqXWnVHg at 320,249 size 102,34 {
+  Input _dWK58S3zEeywp9dqXWnVHg at 670,69 size 102,34 {
   	content "Shopping"
-  	highlighted true
+  	highlighted false
   	documentation "On the dashboard - with no todo list yet - enter a descriptive name for the new list you want to create,\nand press Enter or click the \"+List\" button."
   	selector "input.form-control[placeholder='e.g. Shopping']"
   	-Transition-> _2F14sS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
@@ -30,7 +30,7 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Timer _2F14sS3zEeywp9dqXWnVHg at 440,250 size 32,32 {
+  Timer _2F14sS3zEeywp9dqXWnVHg at 810,70 size 32,32 {
   	condition presenceOfElementLocated
   	cssSelector ""
   	-Transition-> _2jSpsS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
@@ -38,7 +38,7 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Screenshot _2jSpsS3zEeywp9dqXWnVHg at 480,250 size 32,32 {
+  Screenshot _2jSpsS3zEeywp9dqXWnVHg at 870,70 size 32,32 {
   	pictureName "EnterListName"
   	description _xyXxAS32Eeywp9dqXWnVHg
   	-Transition-> _6Fs18C3yEeywp9dqXWnVHg  decorate "" at (0,0) {
@@ -46,7 +46,7 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Timer _rf34MS32Eeywp9dqXWnVHg at 700,250 size 32,32 {
+  Timer _rf34MS32Eeywp9dqXWnVHg at 730,141 size 32,32 {
   	condition presenceOfElementLocated
   	cssSelector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel > div"
   	-Transition-> _AqpM0S33Eeywp9dqXWnVHg  decorate "" at (0,0) {
@@ -54,14 +54,14 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Comment _xyXxAS32Eeywp9dqXWnVHg at 421,320 size 117,40 {
+  Comment _xyXxAS32Eeywp9dqXWnVHg at 940,50 size 117,40 {
   	content "Creating a new todo list"
   	-Anchor-> _2jSpsS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _8J7asC32Eeywp9dqXWnVHg
   	}
   }
   
-  Screenshot _AqpM0S33Eeywp9dqXWnVHg at 790,250 size 32,32 {
+  Screenshot _AqpM0S33Eeywp9dqXWnVHg at 650,141 size 32,32 {
   	pictureName "ListCreated"
   	description _EZJe4S33Eeywp9dqXWnVHg
   	-Transition-> _wzPzIS3yEeywp9dqXWnVHg  decorate "" at (0,0) {
@@ -69,10 +69,25 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	}
   }
   
-  Comment _EZJe4S33Eeywp9dqXWnVHg at 750,330 size 220,40 {
+  Comment _EZJe4S33Eeywp9dqXWnVHg at 511,210 size 220,40 {
   	content "A new list with no entry yet has been created."
   	-Anchor-> _AqpM0S33Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _HYzG4S33Eeywp9dqXWnVHg
+  	}
+  }
+  
+  Highlight _9dOY8TeWEeyccMrL8uk_vg at 330,70 size 301,32 {
+  	target _dWK58S3zEeywp9dqXWnVHg
+  	-Transition-> _dWK58S3zEeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _HdgLETeXEeyccMrL8uk_vg
+  	}
+  }
+  
+  SubDoc _5IjvQTqKEeyxMqiL_MAaPA at 207,112 size 90,40 {
+  	createScreenshots true
+  	libraryComponentUID "_fuP04ClvEeyVOqAhuyE3dg"
+  	-Transition-> _9dOY8TeWEeyccMrL8uk_vg  decorate "" at (0,0) {
+  		id _6COiMTqKEeyxMqiL_MAaPA
   	}
   }
 }

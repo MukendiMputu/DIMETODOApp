@@ -2,7 +2,7 @@ DocGraphModel _5BaiQSlvEeyVOqAhuyE3dg {
   modelName "DeleteList"
   documenation "Lorem ipsum dolor et si met."
   StartNode _XhwHcS33Eeywp9dqXWnVHg at 80,250 size 96,32 {
-  	-Transition-> _LqlPsS34Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  	-Transition-> _Ub8asTRmEeyGupkDgYQozQ  decorate "" at (0,0) {
   		id _Ua9gMS34Eeywp9dqXWnVHg
   	}
   }
@@ -41,6 +41,14 @@ DocGraphModel _5BaiQSlvEeyVOqAhuyE3dg {
   	content "To remove a list element, click the \"Remove List\" button located in the top right-hand corner of the target list section."
   	-Anchor-> _W9iKoS34Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _EGxqkS35Eeywp9dqXWnVHg
+  	}
+  }
+  
+  SubDoc _Ub8asTRmEeyGupkDgYQozQ at 213,173 size 90,40 {
+  	createScreenshots false
+  	libraryComponentUID "_hic9cClvEeyVOqAhuyE3dg"
+  	-Transition-> _LqlPsS34Eeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _VGgaoTRmEeyGupkDgYQozQ
   	}
   }
 }

@@ -20,9 +20,6 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	
   	Stop _nZ-K8TH1EeyxDs79MYjjDw at 114,155 size 32,32 {
   	}
-  	-Edge-> _NR4KwSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  		id _QYNKYTHzEey6L71cYpPFpg
-  	}
   }
   
   FeatureContainer _NR4KwSlwEeyVOqAhuyE3dg at 679,100 size 300,205 {
@@ -43,9 +40,6 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	}
   	
   	Stop _n5n7YTH1EeyxDs79MYjjDw at 150,150 size 32,32 {
-  	}
-  	-Edge-> _OTjDIClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  		id _Q0EnATHzEey6L71cYpPFpg
   	}
   }
   
@@ -68,9 +62,6 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	
   	Stop _oMB6ATH1EeyxDs79MYjjDw at 150,160 size 32,32 {
   	}
-  	-Edge-> _O_5y0SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  		id _RWcUQTHzEey6L71cYpPFpg
-  	}
   }
   
   FeatureContainer _O_5y0SlwEeyVOqAhuyE3dg at 1000,330 size 300,197 {
@@ -91,9 +82,6 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   		-Edge-> _EMDZRSlxEeyVOqAhuyE3dg  decorate "" at (0,0) {
   			id _wnxdoTH9EeypBs5Sw6SaWw
   		}
-  	}
-  	-Edge-> _PYBX4SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  		id _R4ClcTHzEey6L71cYpPFpg
   	}
   }
   
@@ -116,9 +104,6 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	
   	Stop _pAbLYTH1EeyxDs79MYjjDw at 120,150 size 32,32 {
   	}
-  	-Edge-> _Pu608SlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  		id _SRcj8THzEey6L71cYpPFpg
-  	}
   }
   
   FeatureContainer _Pu608SlwEeyVOqAhuyE3dg at 380,330 size 270,197 {
@@ -139,9 +124,6 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	}
   	
   	Stop _pZAqgTH1EeyxDs79MYjjDw at 130,150 size 32,32 {
-  	}
-  	-Edge-> _e-cwIDH1EeyxDs79MYjjDw  decorate "" at (0,0) {
-  		id _fiOLkTH1EeyxDs79MYjjDw
   	}
   }
   
@@ -164,9 +146,6 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   	
   	Stop _ixu0gTH1EeyxDs79MYjjDw at 80,160 size 32,32 {
   	}
-  	-Edge-> _MvEYoClwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  		id _Pvs_8THzEey6L71cYpPFpg
-  	}
   }
   
   PropertyContainer _KFJZ0SsBEey3btEC6p-NLw at 30,20 size 300,75 {
@@ -175,14 +154,5 @@ FeatureGraphModel _LJ6_wSlwEeyVOqAhuyE3dg {
   		path "/home/mukendi/opt/WebDriver/bin/geckodriver"
   		name FIREFOX
   	}
-  }
-  
-  Begin _ZUznEDH1EeyxDs79MYjjDw at 10,187 size 96,32 {
-  	-Edge-> _Q_P0YSlwEeyVOqAhuyE3dg  decorate "" at (0,0) {
-  		id _dtTRUTH1EeyxDs79MYjjDw
-  	}
-  }
-  
-  End _e-cwIDH1EeyxDs79MYjjDw at 213,413 size 96,32 {
   }
 }
