@@ -1,8 +1,8 @@
 DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   modelName "UserLogin"
   documenation "Lorem ipsum dolor et si met."
-  StartNode _dXvqsS1YEeydE5SriVPFAA at 140,260 size 96,32 {
-  	-Transition-> _ePxe4C1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  StartNode _dXvqsS1YEeydE5SriVPFAA at 10,260 size 96,32 {
+  	-Transition-> __U5XIUY6Eey0nsl7Ny9OWw  decorate "" at (0,0) {
   		id _gcXSQC1YEeydE5SriVPFAA
   	}
   }
@@ -100,6 +100,14 @@ DocGraphModel _fuP04ClvEeyVOqAhuyE3dg {
   	content "Fill in username and password."
   	-Anchor-> _DuSywS3xEeyhPrHBltt7Ag  decorate "" at (0,0) {
   		id _VyPq8S3yEeywp9dqXWnVHg
+  	}
+  }
+  
+  SubDoc __U5XIUY6Eey0nsl7Ny9OWw at 140,256 size 90,40 {
+  	createScreenshots true
+  	libraryComponentUID "_fuP04ClvEeyVOqAhuyE3dg"
+  	-Transition-> _ePxe4C1YEeydE5SriVPFAA  decorate "" at (0,0) {
+  		id _AtF5IUY7Eey0nsl7Ny9OWw
   	}
   }
 }
