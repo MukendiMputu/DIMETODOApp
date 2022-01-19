@@ -32,7 +32,7 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   
   Timer _2F14sS3zEeywp9dqXWnVHg at 810,70 size 32,32 {
   	condition presenceOfElementLocated
-  	cssSelector ""
+  	cssSelector "input.form-control[placeholder='e.g. Shopping']"
   	-Transition-> _2jSpsS3zEeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _5PjboC3zEeywp9dqXWnVHg
   	}
@@ -41,14 +41,14 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   Screenshot _2jSpsS3zEeywp9dqXWnVHg at 870,70 size 32,32 {
   	pictureName "EnterListName"
   	description _xyXxAS32Eeywp9dqXWnVHg
-  	-Transition-> _6Fs18C3yEeywp9dqXWnVHg  decorate "" at (0,0) {
+  	-Transition-> _2zAPIHd9Eeyg9KtIlEkmNQ  decorate "" at (0,0) {
   		id _5dNdIS3zEeywp9dqXWnVHg
   	}
   }
   
   Timer _rf34MS32Eeywp9dqXWnVHg at 730,141 size 32,32 {
   	condition presenceOfElementLocated
-  	cssSelector "body > app > routable-aycj5qmwmeewzvvvwxpyu8a-process > root-home-aycj5qmwmeewzvvvwxpyu8a-process > home-aycj5qmwmeewzvvvwxpyu8a-process > home-tag > div > div > div > dime-panel > div"
+  	cssSelector "h1"
   	-Transition-> _AqpM0S33Eeywp9dqXWnVHg  decorate "" at (0,0) {
   		id _Gbxd8S33Eeywp9dqXWnVHg
   	}
@@ -83,11 +83,18 @@ DocGraphModel _hic9cClvEeyVOqAhuyE3dg {
   	}
   }
   
-  SubDoc _5IjvQTqKEeyxMqiL_MAaPA at 207,112 size 90,40 {
-  	createScreenshots true
+  SubDoc _5IjvQTqKEeyxMqiL_MAaPA at 200,66 size 90,40 {
+  	createScreenshots false
   	libraryComponentUID "_fuP04ClvEeyVOqAhuyE3dg"
   	-Transition-> _9dOY8TeWEeyccMrL8uk_vg  decorate "" at (0,0) {
   		id _6COiMTqKEeyxMqiL_MAaPA
+  	}
+  }
+  
+  UnHighlight _2zAPIHd9Eeyg9KtIlEkmNQ at 960,105 size 301,32 {
+  	target _dWK58S3zEeywp9dqXWnVHg
+  	-Transition-> _6Fs18C3yEeywp9dqXWnVHg  decorate "" at (0,0) {
+  		id _-lWKEXd9Eeyg9KtIlEkmNQ
   	}
   }
 }
